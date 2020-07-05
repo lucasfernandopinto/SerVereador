@@ -12,40 +12,41 @@
     <link rel="stylesheet" type="text/css" href="estilo.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                 <a class="nav-link" href="index.html">Início</a>
-               </li>
-                <li class="nav-item active">
-                 <a class="nav-link" href="aulas.html">Aulas</a>
-               </li>
-             </ul>
-              <a href="#" class="navbar-left" menu">
-                <img alt="Brand" src="img/servereador.png" id="servereador" class="img-responsive">
-               </a>
-               <ul class="navbar-nav ml-auto">
-                <li class="nav-item" id="entrarPosition">
-                  <a class="nav-link" href="login.html">Entrar</a>
-                </li>
-                <li class="nav-item" id="cadastrarPosition">
-                  <a class="nav-link" href="cadastro.html">Cadastrar-se</a>
-                </li>
-              </ul>
-          </div>
+   <header id="header">
+    <div class="container d-flex">
+      <div class="logo mr-auto">
+        <h1 class="text-light">
+          <a href="principal.html">Ser Vereador</a>
+        </h1>
+      </div>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="nav-item">
+            <a href="index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="aulas.html">Aulas</a>
+          </li>
+          <li class="nav-item">
+            <a href="login.html">Entrar</a>
+          </li>
+          <li class="nav-item active">
+            <a href="cadastro.html">Cadastrar-se</a>
+          </li>
+        </ul>
       </nav>
-<div class="container">
+
+    </div>
+  </header>
+<div class="container" id="bordaCadastro">
   <div class="row">
     <div class="col-sm-12 text-center my-3">
       <h1>Cadastro</h1>
     </div>
       <div class="row justify-content-center mb-3">
-        <div class="col-sm-2" id="iconCadastro">
-          <svg class="bi bi-person-plus-fill" width="8em" height="8em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <div class="col-sm-2">
+          <svg class="bi bi-person-plus-fill" width="8em" height="8em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" id="bordaIconCadastro">
             <path fill-rule="evenodd" d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 100-6 3 3 0 000 6zm7.5-3a.5.5 0 01.5.5v2a.5.5 0 01-.5.5h-2a.5.5 0 010-1H13V5.5a.5.5 0 01.5-.5z" clip-rule="evenodd"/>
            <path fill-rule="evenodd" d="M13 7.5a.5.5 0 01.5-.5h2a.5.5 0 010 1H14v1.5a.5.5 0 01-1 0v-2z" clip-rule="evenodd"/>
           </svg>
@@ -77,13 +78,6 @@
             </div>
 
             <div class="form-group col-sm-12">
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input class="form-check-input" type="checkbox">Desejo receber novidades por e-mail
-                </label>
-              </div>
-            </div>
-            <div class="form-group col-sm-12">
               <a href="index.html" class="btn btn-primary">Cancelar </a>
               <button type="submit" class="btn btn-primary">Cadastrar</button>
             </div>
@@ -93,7 +87,7 @@
   </div>
 </div>
   
-<footer class="footer mt-auto py-4 bg-light" id="rodape">
+<footer class="footer mt-auto py-4" id="rodape">
   <div class="col-sm-12">
     <span class="text-muted">&copy 2020</span>
   </div>

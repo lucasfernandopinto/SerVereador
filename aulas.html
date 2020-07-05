@@ -12,33 +12,33 @@
     <link rel="stylesheet" type="text/css" href="estilo.css">
   </head>
   <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                 <a class="nav-link" href="index.html">Início</a>
-               </li>
-                <li class="nav-item active">
-                 <a class="nav-link" href="aulas.html">Aulas</a>
-               </li>
-             </ul>
-              <a href="#" class="navbar-left" menu">
-                <img alt="Brand" src="img/servereador.png" id="servereador" class="img-responsive">
-               </a>
-               <ul class="navbar-nav ml-auto">
-                <li class="nav-item" id="entrarPosition">
-                  <a class="nav-link" href="login.html">Entrar</a>
-                </li>
-                <li class="nav-item" id="cadastrarPosition">
-                  <a class="nav-link" href="cadastro.html">Cadastrar-se</a>
-                </li>
-              </ul>
-          </div>
+   <header id="header">
+    <div class="container d-flex">
+      <div class="logo mr-auto">
+        <h1 class="text-light">
+          <a href="principal.html">Ser Vereador</a>
+        </h1>
+      </div>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="nav-item">
+            <a href="index.html">Início</a>
+          </li>
+          <li class="nav-item active">
+            <a href="aulas.html">Aulas</a>
+          </li>
+          <li class="nav-item">
+            <a href="login.html">Entrar</a>
+          </li>
+          <li class="nav-item">
+            <a href="cadastro.html">Cadastrar-se</a>
+          </li>
+        </ul>
       </nav>
 
+    </div>
+  </header>
 <div class="container">
   <div class="row">
     <div class="col-sm-12 text-center my-3">
@@ -186,24 +186,20 @@
 </div>
 </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-12 text-center my-5">
-    </div>
+<div class="container-fluid">
+ <div class="row justify-content-center mb-5">
+  <div class="col-sm-2">
+  <a href="certificado.html" class="btn btn-primary" role="button" aria-pressed="true" id="botaoCertificado">Clique aqui para receber seu certificado</a>
   </div>
-</div>
-<div class="container">
-  <div class="row">
-    <div class="col-sm-12 text-center my-5">
-    </div>
-  </div>
+ </div>
 </div>
 
-<footer class="footer mt-auto py-4 bg-light" id="rodape">
+<footer class="footer mt-auto py-4" id="rodape">
   <div class="col-sm-12">
     <span class="text-muted">&copy 2020</span>
   </div>
 </footer>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
