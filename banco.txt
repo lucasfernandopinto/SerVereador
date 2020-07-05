@@ -1,0 +1,14 @@
+crear o banco de dados:
+create database vereador;
+
+usar o banco de dados:
+use vereador;
+
+crear a tabela usuarios:
+create table usuarios (
+	id int not null auto_increment primary key,
+    nome varchar(30) not null,
+    telefone varchar(30) not null,
+    email varchar(40) not null,
+    senha varchar(32) not null
+);

@@ -23,10 +23,10 @@
 
         <nav class="nav-menu d-none d-lg-block">
           <ul>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a href="index.html">Início</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a href="compra.php">Compre Agora</a>
             </li>
             <li class="nav-item">
