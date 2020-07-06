@@ -26,7 +26,7 @@
       <div class="container d-flex">
         <div class="logo mr-auto">
           <h1 class="text-light">
-            <a href="index.html">Ser Vereador</a>7
+            <a href="index.html">Ser Vereador</a>
           </h1>
         </div>
 
