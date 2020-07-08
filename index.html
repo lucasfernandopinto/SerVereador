@@ -139,12 +139,13 @@
             <h2>Equipe</h2>
         </div>
          <div class="row justify-content-center">
-            <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+            <p>Os seres responsáveis por toda a dinâmica do curso são:</p>
         </div>
         
           <div class="row">
 
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="row justify-content-center my-3">  
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
               <div class="member">
                 <div class="member-img">
                   <img src="img/pessoa.jpg" class="img-fluid" alt="">
@@ -156,13 +157,13 @@
                   </div>
                 </div>
                 <div class="member-info">
-                  <h4>Walter White</h4>
+                  <h4>Renato</h4>
                   <span>Chief Executive Officer</span>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
               <div class="member">
                 <div class="member-img">
                   <img src="img/pessoa.jpg" class="img-fluid" alt="">
@@ -174,49 +175,14 @@
                   </div>
                 </div>
                 <div class="member-info">
-                  <h4>Sarah Jhonson</h4>
+                  <h4>Chico</h4>
                   <span>Product Manager</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-              <div class="member">
-                <div class="member-img">
-                  <img src="img/pessoa.jpg" class="img-fluid" alt="">
-                  <div class="social">
-                    <a href=""><i class="icofont-twitter"></i></a>
-                    <a href=""><i class="icofont-facebook"></i></a>
-                    <a href=""><i class="icofont-instagram"></i></a>
-                    <a href=""><i class="icofont-linkedin"></i></a>
-                  </div>
-                </div>
-                <div class="member-info">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-              <div class="member">
-                <div class="member-img">
-                  <img src="img/pessoa.jpg" class="img-fluid" alt="">
-                  <div class="social">
-                    <a href=""><i class="icofont-twitter"></i></a>
-                    <a href=""><i class="icofont-facebook"></i></a>
-                    <a href=""><i class="icofont-instagram"></i></a>
-                    <a href=""><i class="icofont-linkedin"></i></a>
-                  </div>
-                </div>
-                <div class="member-info">
-                  <h4>Amanda Jepson</h4>
-                  <span>Accountant</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
      </section>
 
     <section id="faq" class="faq">
@@ -278,6 +244,76 @@
           </div>
         </div>
       </section>
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container">
+            
+        <h3><strong><center>Localização e Contatos</center></strong></h3>      
+
+          <div class="row mt-5">
+            <div class="col-lg-4" data-aos="fade-right">
+              <div class="info">
+              
+                <div class="address">
+                  <i class="icofont-google-map"></i>
+                  <h4>Localização:</h4>
+                  <p align="justify">Quedas do Iguaçu - Paraná - Brasil</p>
+                </div>
+
+                <div class="email">
+                  <i class="icofont-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>*************</p>
+                </div>
+
+                <div class="phone">
+                  <i class="icofont-phone"></i>
+                  <h4>Contatos:</h4>
+                  <p>Renato: (47) 99784-1826</p>
+                  <p>Chico: (46) 9998-1226</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
+              <h4><b>Envie sua Mensagem para Nós:<b></h4>
+
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="form-row">
+                  <div class="col-md-6 form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Seu nome" data-rule="minlen:4" data-msg="Por favor informe o seu nome" />
+                    <div class="validate"></div>
+                  </div>                
+                
+                  <div class="col-md-6 form-group">
+                    <input type="text" class="form-control" name="contato" id="contato" maxlength="15" placeholder="Seu Contato" data-rule="contato" data-msg="Por favor informe seu contato" />
+                    <div class="validate"></div>
+                  </div>
+                </div>
+                
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" data-rule="minlen:4" data-msg="Por favor informe o assunto" />
+                  <div class="validate"></div>
+                </div>
+                
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor informe a mensagem" placeholder="Mensagem"></textarea>
+                  <div class="validate"></div>
+                </div>
+
+                <div class="mb-3">
+                  <div class="loading">Aguarde o Envio da Mensagem</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Mensagem enviada com sucesso. Obrigado!</div>
+                </div>
+                <div class="text-center"><button type="submit">Enviar Mensagem</button></div> <br>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </section><!-- End Contact Section -->
 
       <footer class="footer mt-auto py-4" id="rodape">
         <div class="col-sm-12">
