@@ -102,7 +102,7 @@
 
       </div>
     </section>
-
+<hr/>
   <section id="aux" class="aux">
     <div class="container">
       <div class="col-sm-12 my-5">  
@@ -152,17 +152,15 @@
       </div>
     </div>
   </section>
-
+<hr/>
    <section id="team" class="team">
       <div class="container">
         <div class="row justify-content-center">
             <h2>Equipe</h2>
         </div>
-         <div class="row justify-content-center">
-            <p>Os seres responsáveis por toda a dinâmica do curso são:</p>
+        <div class="row justify-content-center">
+          <p>Os seres responsáveis por toda a dinâmica do curso são:</p>
         </div>
-        
-          <div class="row">
 
           <div class="row justify-content-center my-3">  
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
@@ -202,195 +200,164 @@
             </div>
           </div>
         </div>
-      </div>
-     </section>
-
+       </section>
+<hr/>
     <section id="faq" class="faq">
       <div class="container">
-          <div class="row justify-content-center">
+          <div class="row justify-content-center my-5">
             <div class="section-title">
               <h3>Algumas questões frequentes sobre ser vereador</h3>
             </div>
+            <div class="row justify-content-center my-3">
+              <div class="faq-list">
+                <ul>
+                  <li>
+                    <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1">Non consectetur a erat nam at lectus urna duis?</a>
+                    <div id="faq-list-1" class="collapse show" data-parent=".faq-list">
+                      <p>
+                        Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                      </p>
+                    </div>
+                  </li>
 
-            <div class="faq-list">
-              <ul>
-                <li>
-                  <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1">Non consectetur a erat nam at lectus urna duis?</a>
-                  <div id="faq-list-1" class="collapse show" data-parent=".faq-list">
-                    <p>
-                      Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                    </p>
-                  </div>
-                </li>
+                  <li>
+                    <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc?</a>
+                    <div id="faq-list-2" class="collapse" data-parent=".faq-list">
+                      <p>
+                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                      </p>
+                    </div>
+                  </li>
 
-                <li>
-                  <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc?</a>
-                  <div id="faq-list-2" class="collapse" data-parent=".faq-list">
-                    <p>
-                      Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                    </p>
-                  </div>
-                </li>
+                  <li>
+                    <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit?</a>
+                    <div id="faq-list-3" class="collapse" data-parent=".faq-list">
+                      <p>
+                        Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                      </p>
+                    </div>
+                  </li>
 
-                <li>
-                  <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit?</a>
-                  <div id="faq-list-3" class="collapse" data-parent=".faq-list">
-                    <p>
-                      Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                    </p>
-                  </div>
-                </li>
+                  <li>
+                    <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? </a>
+                    <div id="faq-list-4" class="collapse" data-parent=".faq-list">
+                      <p>
+                        Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+                      </p>
+                    </div>
+                  </li>
 
-                <li>
-                  <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? </a>
-                  <div id="faq-list-4" class="collapse" data-parent=".faq-list">
-                    <p>
-                      Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
-                    </p>
-                  </div>
-                </li>
+                  <li>
+                    <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?</a>
+                    <div id="faq-list-5" class="collapse" data-parent=".faq-list">
+                      <p>
+                        Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                      </p>
+                    </div>
+                  </li>
 
-                <li>
-                  <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?</a>
-                  <div id="faq-list-5" class="collapse" data-parent=".faq-list">
-                    <p>
-                      Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
-                    </p>
-                  </div>
-                </li>
-
-              </ul>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </section>
+<hr/>
 
-      <!-- ======= Contact Section ======= -->
-      <section id="contact" class="contact">
-        <div class="container">
-            
-        <h3><strong><center>Localização e Contatos</center></strong></h3>      
+        <section id="contact" class="contact">
+          <div class="container">
+            <div class="col-sm-12">
+              <div class="row justify-content-center mt-5">
+                <div class="col-4">                  
+                  <h3><strong><center>Localização e Contatos</center></strong></h3>   
+                  <p><center>Para qualquer dúvida, entre em contato:</center></p>           
+                    <div class="info" id="contatoPosition">
+                      <div class="address">
+                        <i class="icofont-google-map"></i>
+                        <h4>Localização:</h4>
+                        <p align="justify">Quedas do Iguaçu - Paraná - Brasil</p>
+                      </div>
 
-          <div class="row mt-5">
-            <div class="col-lg-4" data-aos="fade-right">
-              <div class="info">
-              
-                <div class="address">
-                  <i class="icofont-google-map"></i>
-                  <h4>Localização:</h4>
-                  <p align="justify">Quedas do Iguaçu - Paraná - Brasil</p>
-                </div>
+                      <div class="email">
+                        <i class="icofont-envelope"></i>
+                        <h4>Email:</h4>
+                        <p>*************</p>
+                      </div>
 
-                <div class="email">
-                  <i class="icofont-envelope"></i>
-                  <h4>Email:</h4>
-                  <p>*************</p>
-                </div>
+                      <div class="phone">
+                        <i class="icofont-phone"></i>
+                        <h4>Contatos:</h4>
+                        <p>Renato: (47) 99784-1826</p>
+                        <p>Chico: (46) 9998-1226</p>
+                      </div>
+                    </div>
+                  </div>
 
-                <div class="phone">
-                  <i class="icofont-phone"></i>
-                  <h4>Contatos:</h4>
-                  <p>Renato: (47) 99784-1826</p>
-                  <p>Chico: (46) 9998-1226</p>
-                </div>
-              </div>
-            </div>
+                <div class="col-lg-8 mt-5 mt-lg-0">
+                  <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
+                  <input type="hidden" name="comunicacao" value="<?php echo $_GET['comunicacao']; ?>">
+                    <div class="container">
+                        <h3><strong><center>Seja um Colaborador</center></strong></h3>
+                        <p><center>Deixe sua mensagem abaixo:</center></p>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="nome">Nome:</label>
+                              <input type="text" class="form-control" id="nome" name="nome" placeholder="Seu nome" required>
+                              <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
+                            </div>
+                          </div>
 
-            <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
-             
- <!--        
- <h4><b>Envie sua Mensagem para Nós:<b></h4>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="contato">Contato:</label>
+                              <input type="text" class="form-control" id="contato" placeholder="Seu contato" name="contato" required>
+                              <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
+                            </div>
+                          </div>
+                        </div>
 
-      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                <div class="form-row">
-                  <div class="col-md-6 form-group">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Seu nome" data-rule="minlen:4" data-msg="Por favor informe o seu nome" />
-                    <div class="validate"></div>
-                  </div>                
-                
-                  <div class="col-md-6 form-group">
-                    <input type="text" class="form-control" name="contato" id="contato" maxlength="15" placeholder="Seu Contato" data-rule="contato" data-msg="Por favor informe seu contato" />
-                    <div class="validate"></div>
+                      <div class="form-group">
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" class="form-control" id="assunto" name="assunto" placeholder="Informe o Assunto" required>
+                        <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
+                      </div>
+                      
+                      <div class="form-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea type="text" class="form-control" id="mensagem" name="mensagem" placeholder="Informe a Mensagem" required></textarea>
+                        <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
+                      </div>
+
+                      <div class="text-center"><button name="btnSubmit" id="btnSubmit" type="submit" class="btn btn-primary">&nbsp;&nbsp;Enviar mensagem</button></div> 
+                    </div>
+                    <br><br>
+                  </form>
+                  <!-- Page Content --> 
+
+                  <script>
+                    (function() {
+                      'use strict';
+                      window.addEventListener('load', function() {
+                        var forms = document.getElementsByClassName('needs-validation');
+                        var validation = Array.prototype.filter.call(forms, function(form) {
+                          form.addEventListener('submit', function(event) {
+                            if (form.checkValidity() === false) {
+                              event.preventDefault();
+                              event.stopPropagation();
+                            }
+                            form.classList.add('was-validated');
+                          }, false);
+                        });
+                      }, false);
+                    })();
+                  </script>
+
                   </div>
                 </div>
-                
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" data-rule="minlen:4" data-msg="Por favor informe o assunto" />
-                  <div class="validate"></div>
-                </div>
-                
-                <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor informe a mensagem" placeholder="Mensagem"></textarea>
-                  <div class="validate"></div>
-                </div>
-
-                <div class="mb-3">
-                  <div class="loading">Aguarde o Envio da Mensagem</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Mensagem enviada com sucesso. Obrigado!</div>
-                </div>
-                <div class="text-center"><button type="submit">Enviar Mensagem</button></div> <br>
-              </form> -->
-
-              <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
-              <input type="hidden" name="comunicacao" value="<?php echo $_GET['comunicacao']; ?>">
-              
-              <div class="container">
-                <div class="form-group">
-                  <h2>Seja um Colaborador</h2>
-                  <p>Deixe sua Mensagem abaixo:</p>
-                  
-                  <label for="nome">Nome:</label>
-                  <input type="text" class="form-control" id="nome" name="nome" placeholder="Seu nome" required>
-                  <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
-                </div>
-
-                <div class="form-group">
-                  <label for="contato">Contato:</label>
-                  <input type="text" class="form-control" id="contato" placeholder="Seu contato" name="contato" required>
-                  <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
-                </div>
-
-                <div class="form-group">
-                  <label for="assunto">Assunto:</label>
-                  <input type="text" class="form-control" id="assunto" name="assunto" placeholder="Informe o Assunto" required>
-                  <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
-                </div>
-                
-                <div class="form-group">
-                  <label for="mensagem">Mensagem:</label>
-                  <input type="text" class="form-control" id="mensagem" name="mensagem" placeholder="Informe a Mensagem" required>
-                  <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
-                </div>
-
-                <button name="btnSubmit" id="btnSubmit" type="submit" class="btn btn-primary">&nbsp;&nbsp;Enviar</button> 
               </div>
-              <br><br>
-            </form>
-            <!-- Page Content --> 
-
-            <script>
-              (function() {
-                'use strict';
-                window.addEventListener('load', function() {
-                  var forms = document.getElementsByClassName('needs-validation');
-                  var validation = Array.prototype.filter.call(forms, function(form) {
-                    form.addEventListener('submit', function(event) {
-                      if (form.checkValidity() === false) {
-                        event.preventDefault();
-                        event.stopPropagation();
-                      }
-                      form.classList.add('was-validated');
-                    }, false);
-                  });
-                }, false);
-              })();
-            </script>
-
             </div>
-          </div>
-        </div>
-      </section><!-- End Contact Section -->
+        </section>
 
       <footer class="footer mt-auto py-4" id="rodape">
         <div class="col-sm-12">

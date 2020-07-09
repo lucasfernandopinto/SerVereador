@@ -425,21 +425,6 @@ div#msg-erro{
   bottom: 15px;
 }
 
-.section-title {
-  text-align: center;
-  padding-bottom: 30px;
-}
-
-
-
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
-.contact .info {
-  width: 100%;
-  background: #fff;
-}
-
 .contact .info i {
   font-size: 20px;
   color: #000;
@@ -576,4 +561,51 @@ div#msg-erro{
   100% {
     transform: rotate(360deg);
   }
+}
+
+.contact .btn{
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #483D8B;
+  color: #fff;
+  background: #483D8B;
+
+}
+
+.contact .php-email-form button[type="submit"]:hover {
+  background: #FF0000;
+}
+
+hr{
+  border-top: 1px solid #8c8b8b;
+  text-align: center;
+}
+hr:after{
+  content: '§';
+  display: inline-block;
+  position: relative;
+  top: -14px;
+  padding: 0 10px;
+  background: #f0f0f0;
+  color: #8c8b8b;
+  font-size: 18px;
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+
+#mensagem{
+  height: 100px;
+}
+
+#contatoPosition{
+  position: relative;
+  margin-top: 45px;
 }

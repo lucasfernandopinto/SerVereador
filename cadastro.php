@@ -91,7 +91,7 @@
               </div>
 
               <div class="form-group col-sm-12">
-                <a href="index.html" class="btn btn-primary">Cancelar </a>
+                <a href="index.php" class="btn btn-primary">Cancelar </a>
                 <button type="submit" class="btn btn-primary">Cadastrar</button>
               </div>
             </div>
