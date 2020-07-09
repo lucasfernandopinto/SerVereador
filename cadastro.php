@@ -22,14 +22,14 @@
       <div class="container d-flex">
         <div class="logo mr-auto">
           <h1 class="text-light">
-            <a href="index.html">Ser Vereador</a>
+            <a href="index.php">Ser Vereador</a>
           </h1>
         </div>
 
         <nav class="nav-menu d-none d-lg-block">
           <ul>
             <li class="nav-item">
-              <a href="index.html">Início</a>
+              <a href="index.php">Início</a>
             </li>
             <li class="nav-item">
               <a href="compra.php">Compre Agora</a>

@@ -1,3 +1,23 @@
+<?php
+  require_once "conexao/conexao.php";
+ 
+  if(isset($_POST)) {
+    if(isset($_POST["btnSubmit"])) {
+      $comunicacao = $_POST["comunicacao"];
+      $nome = $_POST["nome"];
+      $contato = $_POST["contato"];
+      $assunto = $_POST["assunto"];
+      $mensagem = $_POST["mensagem"];
+
+      $sql = "INSERT INTO mensagem (nome, contato, assunto, mensagem) VALUES ('$nome', '$contato',  '$assunto', '$mensagem')";
+
+      $res = mysqli_query($con, $sql) or die("Erro: ".  mysqli_error($con));
+
+      $id = mysqli_insert_id($con);
+      }
+  }
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -18,14 +38,14 @@
       <div class="container d-flex">
         <div class="logo mr-auto">
           <h1 class="text-light">
-            <a href="index.html">Ser Vereador</a>
+            <a href="index.php">Ser Vereador</a>
           </h1>
         </div>
 
         <nav class="nav-menu d-none d-lg-block">
           <ul>
             <li class="nav-item active">
-              <a href="index.html">Início</a>
+              <a href="index.php ">Início</a>
             </li>
             <li class="nav-item">
               <a href="compra.php">Compre Agora</a>
@@ -277,9 +297,11 @@
             </div>
 
             <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
-              <h4><b>Envie sua Mensagem para Nós:<b></h4>
+             
+ <!--        
+ <h4><b>Envie sua Mensagem para Nós:<b></h4>
 
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                 <div class="form-row">
                   <div class="col-md-6 form-group">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Seu nome" data-rule="minlen:4" data-msg="Por favor informe o seu nome" />
@@ -308,7 +330,62 @@
                   <div class="sent-message">Mensagem enviada com sucesso. Obrigado!</div>
                 </div>
                 <div class="text-center"><button type="submit">Enviar Mensagem</button></div> <br>
-              </form>
+              </form> -->
+
+              <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
+              <input type="hidden" name="comunicacao" value="<?php echo $_GET['comunicacao']; ?>">
+              
+              <div class="container">
+                <div class="form-group">
+                  <h2>Seja um Colaborador</h2>
+                  <p>Deixe sua Mensagem abaixo:</p>
+                  
+                  <label for="nome">Nome:</label>
+                  <input type="text" class="form-control" id="nome" name="nome" placeholder="Seu nome" required>
+                  <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
+                </div>
+
+                <div class="form-group">
+                  <label for="contato">Contato:</label>
+                  <input type="text" class="form-control" id="contato" placeholder="Seu contato" name="contato" required>
+                  <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
+                </div>
+
+                <div class="form-group">
+                  <label for="assunto">Assunto:</label>
+                  <input type="text" class="form-control" id="assunto" name="assunto" placeholder="Informe o Assunto" required>
+                  <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
+                </div>
+                
+                <div class="form-group">
+                  <label for="mensagem">Mensagem:</label>
+                  <input type="text" class="form-control" id="mensagem" name="mensagem" placeholder="Informe a Mensagem" required>
+                  <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
+                </div>
+
+                <button name="btnSubmit" id="btnSubmit" type="submit" class="btn btn-primary">&nbsp;&nbsp;Enviar</button> 
+              </div>
+              <br><br>
+            </form>
+            <!-- Page Content --> 
+
+            <script>
+              (function() {
+                'use strict';
+                window.addEventListener('load', function() {
+                  var forms = document.getElementsByClassName('needs-validation');
+                  var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                      if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                      }
+                      form.classList.add('was-validated');
+                    }, false);
+                  });
+                }, false);
+              })();
+            </script>
 
             </div>
           </div>
@@ -326,5 +403,27 @@
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+      <!-- Vendor JS Files -->
+      <script src="assets/vendor/jquery/jquery.min.js"></script>
+      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+      <script src="assets/vendor/php-email-form/validate.js"></script>
+      <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+      <script src="assets/vendor/venobox/venobox.min.js"></script>
+      <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+      <script src="assets/vendor/counterup/counterup.min.js"></script>
+      <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+      <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+      <script src="assets/vendor/aos/aos.js"></script>
+
+      <!-- Template Main JS File -->
+      <script src="assets/js/main.js"></script>
+
     </body>
 </html>
+
+<?php
+  require_once "conexao/fecharconexao.php";
+?>

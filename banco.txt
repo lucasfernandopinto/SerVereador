@@ -1,14 +1,23 @@
-crear o banco de dados:
+CRIAR O BANCO DE DADOS:
 create database vereador;
 
-usar o banco de dados:
+USAR O BANCO DE DADOS:
 use vereador;
 
-crear a tabela usuarios:
+CRIAR A TABELA USUÁRIOS:
 create table usuarios (
 	id int not null auto_increment primary key,
     nome varchar(30) not null,
     telefone varchar(30) not null,
     email varchar(40) not null,
     senha varchar(32) not null
+);
+
+CRIAR A TABELA MENSAGEM/CONTATO:
+create table mensagem (
+    comunicacao int not null auto_increment primary key,
+    nome varchar(80) not null,
+    contato varchar(80) not null,
+    assunto varchar(50) not null,
+    mensagem varchar(200) not null
 );
