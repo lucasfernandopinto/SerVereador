@@ -68,7 +68,7 @@
     <div class="hero-container">
       <h1>Ser Vereador</h1>
       <h2>Seja bem-vindo ao melhor curso online para você que é um pré-candidato a vereador. Aqui serão ensinadas todas as competências e habilidades para que você obtenha sucesso nesta campanha.</h2>
-          <a href="compra.php" class="btn-get-started scrollto"><i class="icofont-whatsapp">Comprar por R$00,00</i></a>
+          <a href="#about" class="btn-get-started scrollto"><i class="icofont-whatsapp">Comprar por R$00,00</i></a>
     </div>
   </section>
 
