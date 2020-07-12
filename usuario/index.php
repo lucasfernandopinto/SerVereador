@@ -1,5 +1,5 @@
 <?php
-  require_once "conexao/conexao.php";
+  require_once "../conexao/conexao.php";
  
   if(isset($_POST)) {
     if(isset($_POST["btnSubmit"])) {
@@ -56,6 +56,9 @@
             <li class="nav-item">
               <a href="cadastro.php">Cadastrar-se</a>
             </li>
+            <li class="nav-item">
+              <a href="contato.php">Entre em contato</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -64,7 +67,7 @@
   <section id="hero">
     <div class="hero-container">
       <h1>Ser Vereador</h1>
-      <h2>Seja bem-vindo ao melhor curso online para você que é um pré-candidato à vereador, aqui será ensinado todas as competências e habilidades para tornar-se um bom político.</h2>
+      <h2>Seja bem-vindo ao melhor curso online para você que é um pré-candidato a vereador. Aqui serão ensinadas todas as competências e habilidades para que você obtenha sucesso nesta campanha.</h2>
       <a href="#about" class="btn-get-started scrollto">Comprar por R$00,00</a>
     </div>
   </section>
@@ -75,7 +78,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <img src="img/cadeado.png" width="64px" height="64px">
+              <img src="../img/cadeado.png" width="64px" height="64px">
               <h4>Acesso imediato</h4>
               <p>Compre o curso agora por R$ 00,00 e você vai possuir acesso liberado imediatamente a todas as aulas do programa "Ser Vereador"</p>
             </div>
@@ -84,7 +87,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <img src="img/brasil.png" width="64px" height="64px">
+              <img src="../img/brasil.png" width="64px" height="64px">
               <h4>Acesso ao Brasil inteiro</h4>
               <p>O curso é totalmente online e garantimos acesso em todo o Brasil, sendo necessário uma conexão com a internet.</p>
             </div>
@@ -93,7 +96,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <img src="img/livro.png" width="64px" height="64px">
+              <img src="../img/livro.png" width="64px" height="64px">
               <h4>O melhor conteúdo</h4>
               <p>Garantimos que todos que comprarem vão obter todas as informações, de forma clara e objetiva, necessárias para um pré-candidato à vereador.</p>
             </div>
@@ -118,6 +121,7 @@
               <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
             </div>
           </div>
+          
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box">
               <span>02</span>
@@ -125,6 +129,7 @@
               <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
             </div>
           </div>
+          
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box">
               <span>03</span>
@@ -132,22 +137,34 @@
               <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
             </div>
           </div>
-          <div class="row justify-content-center my-3">  
+
             <div class="col-lg-4 mt-4 mt-lg-0">
+<br><br>
               <div class="box">
                 <span>04</span>
                 <h4> Ad ad velit qui</h4>
                 <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
               </div>
             </div>
+
             <div class="col-lg-4 mt-4 mt-lg-0">
+<br><br>
               <div class="box">
                 <span>05</span>
                 <h4> Ad ad velit qui</h4>
                 <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
               </div>
             </div>
-          </div>
+
+            <div class="col-lg-4 mt-4 mt-lg-0">
+<br><br>
+              <div class="box">
+                <span>06</span>
+                <h4> Ad ad velit qui</h4>
+                <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+              </div>
+            </div>
+
         </div>
       </div>
     </div>
@@ -166,7 +183,7 @@
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
               <div class="member">
                 <div class="member-img">
-                  <img src="img/pessoa.jpg" class="img-fluid" alt="">
+                  <img src="../img/pessoa.jpg" class="img-fluid" alt="">
                   <div class="social">
                     <a href=""><i class="icofont-twitter"></i></a>
                     <a href=""><i class="icofont-facebook"></i></a>
@@ -184,7 +201,7 @@
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
               <div class="member">
                 <div class="member-img">
-                  <img src="img/pessoa.jpg" class="img-fluid" alt="">
+                  <img src="../img/pessoa.jpg" class="img-fluid" alt="">
                   <div class="social">
                     <a href=""><i class="icofont-twitter"></i></a>
                     <a href=""><i class="icofont-facebook"></i></a>
@@ -303,7 +320,7 @@
                           <div class="col-md-6">
                             <div class="form-group">
                               <label for="nome">Nome:</label>
-                              <input type="text" class="form-control" id="nome" name="nome" placeholder="Seu nome" required>
+                              <input type="text" class="form-control" id="nome" maxlength="80" name="nome" placeholder="Seu nome" required>
                               <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
                             </div>
                           </div>
@@ -311,53 +328,60 @@
                           <div class="col-md-6">
                             <div class="form-group">
                               <label for="contato">Contato:</label>
-                              <input type="text" class="form-control" id="contato" placeholder="Seu contato" name="contato" required>
+                              <input type="text" class="form-control" id="contato" maxlength="80" placeholder="Seu contato" name="contato" required>
                               <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
                             </div>
                           </div>
                         </div>
 
-                      <div class="form-group">
-                        <label for="assunto">Assunto:</label>
-                        <input type="text" class="form-control" id="assunto" name="assunto" placeholder="Informe o Assunto" required>
-                        <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
-                      </div>
-                      
-                      <div class="form-group">
-                        <label for="mensagem">Mensagem:</label>
-                        <textarea type="text" class="form-control" id="mensagem" name="mensagem" placeholder="Informe a Mensagem" required></textarea>
-                        <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
-                      </div>
+                        <div class="form-group">
+                          <label for="assunto">Assunto:</label>
+                          <input type="text" class="form-control" id="assunto" maxlength="50" name="assunto" placeholder="Informe o Assunto" required>
+                          <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
+                        </div>
+                        
+                        <div class="form-group">
+                          <label for="mensagem">Mensagem:</label>
+                          <textarea type="text" class="form-control" id="mensagem" maxlength="200" name="mensagem" placeholder="Informe a Mensagem" required></textarea>
+                          <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
+                        </div>
 
-                      <div class="text-center"><button name="btnSubmit" id="btnSubmit" type="submit" class="btn btn-primary">&nbsp;&nbsp;Enviar mensagem</button></div> 
+                        <div class="text-center">
+                          <button name="btnSubmit" id="btnSubmit" type="submit" class="btn btn-primary" onclick="msg()">&nbsp;&nbsp;Enviar mensagem</button>
+                        </div>
+                      </div>
+                      <br><br>
+                    </form>
+                    <!-- Page Content --> 
+                    <?php
+                      if (isset($_POST["acao"])){
+                        echo "<script> alert('Formulário Foi enviado pelo método POST') </script>";
+                      }
+                    ?>
+
+                    <script>  
+                      (function() {
+                        'use strict';
+                        window.addEventListener('load', function() {
+                          var forms = document.getElementsByClassName('needs-validation');
+                          var validation = Array.prototype.filter.call(forms, function(form) {
+                            form.addEventListener('submit', function(event) {
+                              if (form.checkValidity() === false) {
+                                event.preventDefault();
+                                event.stopPropagation();
+                              }
+                              form.classList.add('was-validated');
+                            }, false);
+                          });
+                        }, false);
+                      })();
+                    </script>
+
                     </div>
-                    <br><br>
-                  </form>
-                  <!-- Page Content --> 
-
-                  <script>
-                    (function() {
-                      'use strict';
-                      window.addEventListener('load', function() {
-                        var forms = document.getElementsByClassName('needs-validation');
-                        var validation = Array.prototype.filter.call(forms, function(form) {
-                          form.addEventListener('submit', function(event) {
-                            if (form.checkValidity() === false) {
-                              event.preventDefault();
-                              event.stopPropagation();
-                            }
-                            form.classList.add('was-validated');
-                          }, false);
-                        });
-                      }, false);
-                    })();
-                  </script>
-
                   </div>
                 </div>
               </div>
-            </div>
-        </section>
+          </section>
 
       <footer class="footer mt-auto py-4" id="rodape">
         <div class="col-sm-12">
@@ -392,5 +416,5 @@
 </html>
 
 <?php
-  require_once "conexao/fecharconexao.php";
+  require_once "../conexao/fecharconexao.php";
 ?>

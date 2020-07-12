@@ -1,6 +1,6 @@
 <?php
-  require_once 'usuarios.php';
-  $u = new Usuario;
+  require_once '../classes/administrador.php';
+  $u = new administrador;
 ?>
 
 <!doctype html>
@@ -14,31 +14,26 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <title>Ser Vereador</title>
-    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="estilo_adm.css">
   </head>
 
   <body>
+    
     <header id="header">
       <div class="container d-flex">
         <div class="logo mr-auto">
           <h1 class="text-light">
-            <a href="index.php">Ser Vereador</a>
+            <a href="login_adm.php">Ser Vereador</a>
           </h1>
         </div>
 
         <nav class="nav-menu d-none d-lg-block">
           <ul>
-            <li class="nav-item">
-              <a href="index.php">Início</a>
+            <li class="nav-item  active">
+              <a href="login_adm.php ">Login</a>
             </li>
             <li class="nav-item">
-              <a href="compra.php">Compre Agora</a>
-            </li>
-            <li class="nav-item active">
-              <a href="login.php">Entrar</a>
-            </li>
-            <li class="nav-item">
-              <a href="cadastro.php">Cadastrar-se</a>
+              <a href="cadastro_adm.php">Cadastre-se</a>
             </li>
           </ul>
         </nav>
@@ -76,9 +71,8 @@
               </div>
 
               <div class="form-group col-sm-12">
-                <a href="index.php" class="btn btn-primary">Cancelar </a>
                 <button type="submit" class="btn btn-primary">Entrar</button>
-                <a href="cadastro.php" class="btn btn-primary">Cadastre-se </a>
+                <a href="cadastro_adm.php" class="btn btn-primary">Cadastre-se </a>
               </div>
             </div>
           </form>
@@ -98,7 +92,7 @@
             {
               if ($u->logar($email, $senha)) 
               {
-                header("location: aulas.php");
+                header("location: index_adm.php");
               }
               else
               {

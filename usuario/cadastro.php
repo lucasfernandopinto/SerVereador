@@ -40,6 +40,9 @@
             <li class="nav-item active">
               <a href="cadastro.php">Cadastrar-se</a>
             </li>
+            <li class="nav-item">
+              <a href="contato.php">Entre em Contato</a>
+            </li>
           </ul>
         </nav>
       </div>

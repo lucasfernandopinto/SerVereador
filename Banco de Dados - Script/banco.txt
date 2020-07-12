@@ -21,3 +21,11 @@ create table mensagem (
     assunto varchar(50) not null,
     mensagem varchar(200) not null
 );
+
+CRIAR A TABELA ADMINISTRADOR:
+create table administrador (
+	administrador int not null auto_increment primary key,
+    nome varchar(30) not null,
+    email varchar(40) not null,
+    senha varchar(32) not null
+);
