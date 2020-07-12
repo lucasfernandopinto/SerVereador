@@ -8,6 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <link href="../icofont/icofont.min.css" rel="stylesheet">
+
     <title>Ser Vereador</title>
     <link rel="stylesheet" type="text/css" href="estilo.css">
   </head>
@@ -43,8 +45,49 @@
       </div>
     </header>
 
-    <body>
-      <footer class="footer mt-auto py-4 bg-light" id="rodape">
+  <section id="compra"> 
+    <div class="container">     
+      <div class="col-sm-12">
+        <div class="row justify-content-center my-3"> 
+          <h3><center>Deposite o dinheiro em uma das contas abaixo e faça o seu cadastro, logo após, espere o código de acesso, que será enviado em seu e-mail ou via whatsapp.</center></h3>
+        </div>    
+          <div class="row">  
+            <div class="col-sm-6">  
+              <div class="box">  
+                <h5>Renato:</h5>
+                <p>Banco: xxxxxxxxxx </p>
+                <p>Agência: xxxx-x </p>
+                <p>Nº Conta: xx.xxx-x </p>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="box">  
+                <h5>Chico:</h5>
+                <p>Banco: xxxxxxxxxx </p>
+                <p>Agência: xxxx-x </p>
+                <p>Nº Conta: xx.xxx-x </p>
+              </div>
+            </div>
+          </div>
+        <div class="row justify-content-center my-3">    
+          <a href="index.php" class="btn btn-primary">Cancelar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+
+      <footer class="footer mt-auto py-4" id="rodape">
         <div class="col-sm-12">
           <span class="text-muted">&copy 2020</span>
         </div>

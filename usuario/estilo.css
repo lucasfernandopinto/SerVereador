@@ -624,3 +624,28 @@ hr:after{
   position: relative;
   margin-top: 45px;
 }
+
+#compra .btn-primary {
+  background-color: #483D8B;
+  border-color: #483D8B;
+  padding: 6px 510px;
+}
+
+#compra .box {
+  padding: 50px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 0.3s;
+}
+
+#compra .box:hover {
+  background: #483D8B;
+  padding: 30px 30px 70px 30px;
+  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+}
+
+#compra .box p {
+  color: #919191;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
