@@ -65,7 +65,7 @@
                   <div class="jumbotron jumbotron-fluid">
                     <div class="col-sm-12">
                       <h1 class="display-4">Aula 01</h1>
-                      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum orci lorem, ut venenatis enim euismod eget. Suspendisse eu odio nulla. Nulla felis nulla, egestas in lacus eu, fringilla dapibus turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi erat lacus, fringilla sed velit hendrerit, tempor rhoncus nulla. Proin maximus, libero sollicitudin convallis gravida, erat velit lobortis risus, sit amet egestas nisl neque dignissim neque. Quisque a sagittis lorem.</p>
+                      <p class="lead" align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum orci lorem, ut venenatis enim euismod eget. Suspendisse eu odio nulla. Nulla felis nulla, egestas in lacus eu, fringilla dapibus turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi erat lacus, fringilla sed velit hendrerit, tempor rhoncus nulla. Proin maximus, libero sollicitudin convallis gravida, erat velit lobortis risus, sit amet egestas nisl neque dignissim neque. Quisque a sagittis lorem.</p>
                     </div>
                     <div class="row justify-content-center mb-5">
                       <div class="col-sm-6 ml-3">
@@ -92,7 +92,7 @@
                   <div class="jumbotron jumbotron-fluid">
                     <div class="col-sm-12">
                       <h1 class="display-4">Aula 02</h1>
-                      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum orci lorem, ut venenatis enim euismod eget. Suspendisse eu odio nulla. Nulla felis nulla, egestas in lacus eu, fringilla dapibus turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi erat lacus, fringilla sed velit hendrerit, tempor rhoncus nulla. Proin maximus, libero sollicitudin convallis gravida, erat velit lobortis risus, sit amet egestas nisl neque dignissim neque. Quisque a sagittis lorem.</p>
+                      <p class="lead" align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum orci lorem, ut venenatis enim euismod eget. Suspendisse eu odio nulla. Nulla felis nulla, egestas in lacus eu, fringilla dapibus turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi erat lacus, fringilla sed velit hendrerit, tempor rhoncus nulla. Proin maximus, libero sollicitudin convallis gravida, erat velit lobortis risus, sit amet egestas nisl neque dignissim neque. Quisque a sagittis lorem.</p>
                     </div>
                     <div class="row justify-content-center mb-5">
                       <div class="col-sm-6 ml-3">
@@ -119,7 +119,7 @@
                   <div class="jumbotron jumbotron-fluid">
                     <div class="col-sm-12">
                       <h1 class="display-4">Aula 03</h1>
-                      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum orci lorem, ut venenatis enim euismod eget. Suspendisse eu odio nulla. Nulla felis nulla, egestas in lacus eu, fringilla dapibus turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi erat lacus, fringilla sed velit hendrerit, tempor rhoncus nulla. Proin maximus, libero sollicitudin convallis gravida, erat velit lobortis risus, sit amet egestas nisl neque dignissim neque. Quisque a sagittis lorem.</p>
+                      <p class="lead" align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum orci lorem, ut venenatis enim euismod eget. Suspendisse eu odio nulla. Nulla felis nulla, egestas in lacus eu, fringilla dapibus turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi erat lacus, fringilla sed velit hendrerit, tempor rhoncus nulla. Proin maximus, libero sollicitudin convallis gravida, erat velit lobortis risus, sit amet egestas nisl neque dignissim neque. Quisque a sagittis lorem.</p>
                     </div>
                     <div class="row justify-content-center mb-5">
                       <div class="col-sm-6 ml-3">
@@ -146,7 +146,7 @@
                   <div class="jumbotron jumbotron-fluid">
                     <div class="col-sm-12">
                       <h1 class="display-4">Aula 04</h1>
-                      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum orci lorem, ut venenatis enim euismod eget. Suspendisse eu odio nulla. Nulla felis nulla, egestas in lacus eu, fringilla dapibus turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi erat lacus, fringilla sed velit hendrerit, tempor rhoncus nulla. Proin maximus, libero sollicitudin convallis gravida, erat velit lobortis risus, sit amet egestas nisl neque dignissim neque. Quisque a sagittis lorem.</p>
+                      <p class="lead" align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum orci lorem, ut venenatis enim euismod eget. Suspendisse eu odio nulla. Nulla felis nulla, egestas in lacus eu, fringilla dapibus turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi erat lacus, fringilla sed velit hendrerit, tempor rhoncus nulla. Proin maximus, libero sollicitudin convallis gravida, erat velit lobortis risus, sit amet egestas nisl neque dignissim neque. Quisque a sagittis lorem.</p>
                     </div>
                     <div class="row justify-content-center mb-5">
                       <div class="col-sm-6 ml-3">
@@ -161,19 +161,46 @@
             </div>
 
             <div class="card">
-              <div class="card-header" id="headingFour">
+              <div class="card-header" id="headingFive">
                 <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                     Aula 05
                   </button>
                 </h5>
               </div>
-              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+              <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
                 <div class="card-body">
                   <div class="jumbotron jumbotron-fluid">
                     <div class="col-sm-12">
                       <h1 class="display-4">Aula 05</h1>
-                      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum orci lorem, ut venenatis enim euismod eget. Suspendisse eu odio nulla. Nulla felis nulla, egestas in lacus eu, fringilla dapibus turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi erat lacus, fringilla sed velit hendrerit, tempor rhoncus nulla. Proin maximus, libero sollicitudin convallis gravida, erat velit lobortis risus, sit amet egestas nisl neque dignissim neque. Quisque a sagittis lorem.</p>
+                      <p class="lead" align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum orci lorem, ut venenatis enim euismod eget. Suspendisse eu odio nulla. Nulla felis nulla, egestas in lacus eu, fringilla dapibus turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi erat lacus, fringilla sed velit hendrerit, tempor rhoncus nulla. Proin maximus, libero sollicitudin convallis gravida, erat velit lobortis risus, sit amet egestas nisl neque dignissim neque. Quisque a sagittis lorem.</p>
+                    </div>
+                    <div class="row justify-content-center mb-5">
+                      <div class="col-sm-6 ml-3">
+                        <div class="embed-responsive embed-responsive-16by9">
+                          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kE7li_u1nmg"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="headingSix">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    Aula 06
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                <div class="card-body">
+                  <div class="jumbotron jumbotron-fluid">
+                    <div class="col-sm-12">
+                      <h1 class="display-4">Aula 06</h1>
+                      <p class="lead" align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum orci lorem, ut venenatis enim euismod eget. Suspendisse eu odio nulla. Nulla felis nulla, egestas in lacus eu, fringilla dapibus turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi erat lacus, fringilla sed velit hendrerit, tempor rhoncus nulla. Proin maximus, libero sollicitudin convallis gravida, erat velit lobortis risus, sit amet egestas nisl neque dignissim neque. Quisque a sagittis lorem.</p>
                     </div>
                     <div class="row justify-content-center mb-5">
                       <div class="col-sm-6 ml-3">
