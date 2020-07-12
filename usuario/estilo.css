@@ -583,6 +583,21 @@ div#msg-erro{
   background: #FF0000;
 }
 
+.contact .btn-contact{
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #483D8B;
+  color: #fff;
+  background: #483D8B;
+}
+
 hr{
   border-top: 1px solid #8c8b8b;
   text-align: center;

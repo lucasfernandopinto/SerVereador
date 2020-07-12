@@ -68,7 +68,7 @@
     <div class="hero-container">
       <h1>Ser Vereador</h1>
       <h2>Seja bem-vindo ao melhor curso online para você que é um pré-candidato a vereador. Aqui serão ensinadas todas as competências e habilidades para que você obtenha sucesso nesta campanha.</h2>
-      <a href="#about" class="btn-get-started scrollto">Comprar por R$00,00</a>
+          <a href="compra.php" class="btn-get-started scrollto"><i class="icofont-whatsapp">Comprar por R$00,00</i></a>
     </div>
   </section>
 
@@ -347,7 +347,7 @@
                         </div>
 
                         <div class="text-center">
-                          <button name="btnSubmit" id="btnSubmit" type="submit" class="btn btn-primary" onclick="msg()">&nbsp;&nbsp;Enviar mensagem</button>
+                          <button name="btnSubmit" id="btnSubmit" type="submit" class="btn-contact scrollto"  onclick="msg()">&nbsp;&nbsp;Enviar mensagem</button>
                         </div>
                       </div>
                       <br><br>
