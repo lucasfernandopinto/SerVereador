@@ -49,20 +49,12 @@
     <div class="container">     
       <div class="col-sm-12">
         <div class="row justify-content-center my-3"> 
-          <h3><center>Deposite o dinheiro em uma das contas abaixo e faça o seu cadastro, logo após, espere o código de acesso, que será enviado em seu e-mail ou via whatsapp.</center></h3>
+          <h3><center>Deposite o dinheiro na conta abaixo e faça o seu cadastro, logo após, espere o código de acesso, que será enviado em seu e-mail ou via whatsapp.</center></h3>
         </div>    
-          <div class="row">  
+          <div class="row justify-content-center">  
             <div class="col-sm-6">  
               <div class="box">  
                 <h5>Renato:</h5>
-                <p>Banco: xxxxxxxxxx </p>
-                <p>Agência: xxxx-x </p>
-                <p>Nº Conta: xx.xxx-x </p>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="box">  
-                <h5>Chico:</h5>
                 <p>Banco: xxxxxxxxxx </p>
                 <p>Agência: xxxx-x </p>
                 <p>Nº Conta: xx.xxx-x </p>

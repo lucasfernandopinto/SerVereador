@@ -27,10 +27,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
     <link href="../icofont/icofont.min.css" rel="stylesheet">
+    <link href="../venobox/venobox.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
 
     <title>Ser Vereador</title>
-    <link rel="stylesheet" type="text/css" href="estilo.css">
+    
   </head>
   
   <body>
@@ -72,40 +75,52 @@
     </div>
   </section>
 
-      <section id="services" class="services">
+    <section id="services" class="services">
       <div class="container">
-        <div class="row justify-content-center my-5">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <img src="../img/cadeado.png" width="64px" height="64px">
-              <h4>Acesso imediato</h4>
-              <p>Compre o curso agora por R$ 00,00 e você vai possuir acesso liberado imediatamente a todas as aulas do programa "Ser Vereador"</p>
-            </div>
+
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="zoom-in">
+            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+            <p id="legenda">Vídeo explicativo e introdutório sobre o curso.</p>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <img src="../img/brasil.png" width="64px" height="64px">
-              <h4>Acesso ao Brasil inteiro</h4>
-              <p>O curso é totalmente online e garantimos acesso em todo o Brasil, sendo necessário uma conexão com a internet.</p>
-            </div>
-          </div>
+          <div class="col-xl-6 col-lg-6 d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+            <div class="box-heading" data-aos="fade-up">
+             <div class="col-sm-12">
+                <div class="icon-box">
+                  <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                  <img src="../img/cadeado.png" width="64px" height="64px">
+                  <h4>Acesso imediato</h4>
+                  <p>Compre o curso agora por R$ 00,00 e você vai possuir acesso liberado imediatamente a todas as aulas do programa "Ser Vereador"</p>
+                </div>
+              </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <img src="../img/livro.png" width="64px" height="64px">
-              <h4>O melhor conteúdo</h4>
-              <p>Garantimos que todos que comprarem vão obter todas as informações, de forma clara e objetiva, necessárias para um pré-candidato à vereador.</p>
+              <div class="col-sm-12">
+                <div class="icon-box">
+                  <div class="icon"><i class="bx bx-file"></i></div>
+                  <img src="../img/brasil.png" width="64px" height="64px">
+                  <h4>Acesso ao Brasil inteiro</h4>
+                  <p>O curso é totalmente online e garantimos acesso em todo o Brasil, sendo necessário uma conexão com a internet.</p>
+                </div>
+              </div>
+
+              <div class="col-sm-12">
+                <div class="icon-box">
+                  <div class="icon"><i class="bx bx-tachometer"></i></div>
+                  <img src="../img/livro.png" width="64px" height="64px">
+                  <h4>O melhor conteúdo</h4>
+                  <p>Garantimos que todos que comprarem vão obter todas as informações, de forma clara e objetiva, necessárias para um pré-candidato à vereador.</p>
+                </div>
+              </div>
             </div>
+
           </div>
         </div>
-
       </div>
     </section>
+
 <hr/>
+
   <section id="aux" class="aux">
     <div class="container">
       <div class="col-sm-12 my-5">  
@@ -169,116 +184,6 @@
       </div>
     </div>
   </section>
-<hr/>
-   <section id="team" class="team">
-      <div class="container">
-        <div class="row justify-content-center">
-            <h2>Equipe</h2>
-        </div>
-        <div class="row justify-content-center">
-          <p>Os seres responsáveis por toda a dinâmica do curso são:</p>
-        </div>
-
-          <div class="row justify-content-center my-3">  
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="member">
-                <div class="member-img">
-                  <img src="../img/pessoa.jpg" class="img-fluid" alt="">
-                  <div class="social">
-                    <a href=""><i class="icofont-twitter"></i></a>
-                    <a href=""><i class="icofont-facebook"></i></a>
-                    <a href=""><i class="icofont-instagram"></i></a>
-                    <a href=""><i class="icofont-linkedin"></i></a>
-                  </div>
-                </div>
-                <div class="member-info">
-                  <h4>Renato</h4>
-                  <span>Chief Executive Officer</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="member">
-                <div class="member-img">
-                  <img src="../img/pessoa.jpg" class="img-fluid" alt="">
-                  <div class="social">
-                    <a href=""><i class="icofont-twitter"></i></a>
-                    <a href=""><i class="icofont-facebook"></i></a>
-                    <a href=""><i class="icofont-instagram"></i></a>
-                    <a href=""><i class="icofont-linkedin"></i></a>
-                  </div>
-                </div>
-                <div class="member-info">
-                  <h4>Chico</h4>
-                  <span>Product Manager</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-       </section>
-<hr/>
-    <section id="faq" class="faq">
-      <div class="container">
-          <div class="row justify-content-center my-5">
-            <div class="section-title">
-              <h3>Algumas questões frequentes sobre ser vereador</h3>
-            </div>
-            <div class="row justify-content-center my-3">
-              <div class="faq-list">
-                <ul>
-                  <li>
-                    <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1">Non consectetur a erat nam at lectus urna duis?</a>
-                    <div id="faq-list-1" class="collapse show" data-parent=".faq-list">
-                      <p>
-                        Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                      </p>
-                    </div>
-                  </li>
-
-                  <li>
-                    <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc?</a>
-                    <div id="faq-list-2" class="collapse" data-parent=".faq-list">
-                      <p>
-                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                      </p>
-                    </div>
-                  </li>
-
-                  <li>
-                    <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit?</a>
-                    <div id="faq-list-3" class="collapse" data-parent=".faq-list">
-                      <p>
-                        Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                      </p>
-                    </div>
-                  </li>
-
-                  <li>
-                    <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? </a>
-                    <div id="faq-list-4" class="collapse" data-parent=".faq-list">
-                      <p>
-                        Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
-                      </p>
-                    </div>
-                  </li>
-
-                  <li>
-                    <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?</a>
-                    <div id="faq-list-5" class="collapse" data-parent=".faq-list">
-                      <p>
-                        Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
-                      </p>
-                    </div>
-                  </li>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 <hr/>
 
         <section id="contact" class="contact">

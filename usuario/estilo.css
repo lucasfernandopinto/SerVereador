@@ -4,7 +4,7 @@
   z-index: 997;
   transition: all 0.5s;
   padding: 10px 0;
-  background: #483D8B;
+  background: #ff0000;
 }
 
 #header .logo h1 {
@@ -59,24 +59,20 @@
 }
 
 #accordion .btn{
-   color: #483D8B;
+   color: #ff0000;
 }
 
 #accordion .card-body{
-  background-color: #483D8B;
+  background-color: #ff0000;
 }
 
 #accordion .card-header{
   background-color: #F5F5F5;
 }
 
-#rodape{
-  background-color: #483D8B;
-}
-
 .form-group .btn{
-  background-color: #483D8B;
-  border-color: #483D8B;
+  background-color: #ff0000;
+  border-color: #ff0000;
 }
 
 .bi{
@@ -86,8 +82,8 @@
 }
 
 #botaoCertificado{
-  background-color: #483D8B;
-  border-color: #483D8B;
+  background-color: #ff0000;
+  border-color: #ff0000;
 }
 
 #bordaLogin{
@@ -96,7 +92,7 @@
    border-radius: 10px;
    margin-top: 60px;
    margin-bottom: 60px;
-   border-color: #483D8B;
+   border-color: #ff0000;
    background-color: #F8F8FF;
 }
 
@@ -106,7 +102,8 @@
    border-radius: 10px;
    margin-top: 60px;
    margin-bottom: 60px;
-   border-color: #483D8B;
+   border-color: #ff0000
+;
    background-color: #F8F8FF;
 }
 
@@ -161,62 +158,12 @@ div#msg-erro{
 }
 
 .aux .box:hover {
-  background: #483D8B;
+  background: #ff0000
+;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
 
-
-
-.faq .faq-list {
-  padding: 0 100px;
-}
-
-.faq .faq-list ul {
-  padding: 0;
-  list-style: none;
-}
-
-.faq .faq-list li + li {
-  margin-top: 15px;
-}
-
-.faq .faq-list li {
-  padding: 20px;
-  background: #fff;
-  border-radius: 4px;
-  position: relative;
-  background: #f5faf0;
-}
-
-.faq .faq-list a {
-  display: block;
-  position: relative;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 500;
-  padding: 0 30px;
-  outline: none;
-}
-
-
-.faq .faq-list p {
-  margin-bottom: 0;
-  padding: 10px 0 0 0;
-}
-
-.faq .faq-list a.collapsed {
-  color: #000;
-}
-
-.faq .faq-list a.collapsed:hover {
-  color: #483D8B;
-}
-
-#rodape{
-  background-color: #483D8B;
-}
 
 #hero {
   width: 100%;
@@ -274,9 +221,10 @@ div#msg-erro{
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #483D8B;
+  border: 2px solid #ff0000;
   color: #fff;
-  background: #483D8B;
+  background: #ff0000
+;
 }
 
 
@@ -345,84 +293,113 @@ div#msg-erro{
   border-color: #FF0000;
 }
 
-.team {
-  background: #fff;
-  padding: 60px 0;
-}
-
-.team .member {
-  margin-bottom: 20px;
-  overflow: hidden;
-  border-radius: 5px;
-  background: #fff;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-.team .member .member-img {
+.services .video-box {
+  background: url("../img/chicao.jpg") center center no-repeat;
+  background-size: cover;
+  height: 1000px;
   position: relative;
+  margin-top: 48px;
+}
+
+.services .play-btn {
+  width: 94px;
+  height: 94px;
+  background: radial-gradient(#FF0000 50%, rgba(143, 192, 78, 0.4) 52%);
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  left: calc(50% - 47px);
+  top: calc(50% - 47px);
   overflow: hidden;
 }
 
-.team .member .social {
+.services .play-btn::after {
+  content: '';
   position: absolute;
-  left: 0;
-  bottom: 30px;
-  right: 0;
-  opacity: 0;
-  transition: ease-in-out 0.3s;
-  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  z-index: 100;
+  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
-.team .member .social a {
-  transition: color 0.3s;
-  color: #353535;
-  margin: 0 3px;
-  padding-top: 7px;
-  border-radius: 50px;
-  width: 36px;
-  height: 36px;
-  background: #000;
-  display: inline-block;
-  transition: ease-in-out 0.3s;
-  color: #483D8B;
-}
-
-.team .member .social a:hover {
-  background: #FF0000;
-}
-
-.team .member .social i {
-  font-size: 18px;
-}
-
-.team .member .member-info {
-  padding: 25px 15px;
-}
-
-.team .member .member-info h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 18px;
-  color: #353535;
-}
-
-.team .member .member-info span {
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
-  color: #aaaaaa;
-}
-
-.team .member .member-info p {
-  font-style: italic;
-  font-size: 14px;
-  line-height: 26px;
-  color: #777777;
-}
-
-.team .member:hover .social {
+.services .play-btn::before {
+  content: '';
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation: pulsate-btn 2s;
+  animation: pulsate-btn 2s;
+  -webkit-animation-direction: forwards;
+  animation-direction: forwards;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: steps;
+  animation-timing-function: steps;
   opacity: 1;
-  bottom: 15px;
+  border-radius: 50%;
+  border: 5px solid rgba(143, 192, 78, 0.7);
+  top: -15%;
+  left: -15%;
+  background: rgba(198, 16, 0, 0);
+}
+
+.services .play-btn:hover::after {
+  border-left: 15px solid #FF0000;
+  transform: scale(20);
+}
+
+.services .play-btn:hover::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border: none;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  z-index: 200;
+  -webkit-animation: none;
+  animation: none;
+  border-radius: 0;
+}
+
+.services #legenda{
+  position: relative;
+  margin-top: 1000px;
+}
+
+
+@-webkit-keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
+@keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
 }
 
 .contact .info i {
@@ -459,7 +436,8 @@ div#msg-erro{
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #483D8B;
+  background: #ff0000
+;
   color: #FFF;
 }
 
@@ -542,7 +520,8 @@ div#msg-erro{
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #483D8B;
+  background: #ff0000
+;
 }
 
 @-webkit-keyframes animate-loading {
@@ -573,10 +552,9 @@ div#msg-erro{
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #483D8B;
+  border: 2px solid #ff0000;
   color: #fff;
-  background: #483D8B;
-
+  background: #ff0000;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
@@ -593,15 +571,16 @@ div#msg-erro{
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #483D8B;
+  border: 2px solid #ff0000;
   color: #fff;
-  background: #483D8B;
+  background: #ff0000;
 }
 
 hr{
   border-top: 1px solid #8c8b8b;
   text-align: center;
 }
+
 hr:after{
   content: '§';
   display: inline-block;
@@ -626,20 +605,21 @@ hr:after{
 }
 
 #compra .btn-primary {
-  background-color: #483D8B;
-  border-color: #483D8B;
-  padding: 6px 510px;
+  background-color: #ff0000;
+  border-color: #ff0000;
+  padding: 6px 231px;
 }
 
 #compra .box {
-  padding: 50px 30px;
+  padding: 70px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
+  text-align: center;
 }
 
 #compra .box:hover {
-  background: #483D8B;
-  padding: 30px 30px 70px 30px;
+  background: #ff0000;
+  padding: 75px 70px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
 
@@ -648,4 +628,8 @@ hr:after{
   font-size: 15px;
   margin: 0;
   padding: 0;
+}
+
+#rodape{
+  background-color: #ff0000;
 }
