@@ -27,10 +27,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
     <link href="../icofont/icofont.min.css" rel="stylesheet">
+    <link href="../venobox/venobox.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
 
     <title>Ser Vereador</title>
-    <link rel="stylesheet" type="text/css" href="estilo.css">
+    
   </head>
   
   <body>
@@ -68,44 +71,56 @@
     <div class="hero-container">
       <h1>Ser Vereador</h1>
       <h2>Seja bem-vindo ao melhor curso online para você que é um pré-candidato a vereador. Aqui serão ensinadas todas as competências e habilidades para que você obtenha sucesso nesta campanha.</h2>
-          <a href="#about" class="btn-get-started scrollto"><i class="icofont-whatsapp">Comprar por R$00,00</i></a>
+      <a href="compra.php" class="btn-get-started scrollto"><i class="icofont-whatsapp">Comprar por R$99,00</i></a>
     </div>
   </section>
 
-      <section id="services" class="services">
+    <section id="services" class="services">
       <div class="container">
-        <div class="row justify-content-center my-5">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <img src="../img/cadeado.png" width="64px" height="64px">
-              <h4>Acesso imediato</h4>
-              <p>Compre o curso agora por R$ 00,00 e você vai possuir acesso liberado imediatamente a todas as aulas do programa "Ser Vereador"</p>
-            </div>
+
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="zoom-in">
+            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+            <p id="legenda">Vídeo explicativo e introdutório sobre o curso.</p>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <img src="../img/brasil.png" width="64px" height="64px">
-              <h4>Acesso ao Brasil inteiro</h4>
-              <p>O curso é totalmente online e garantimos acesso em todo o Brasil, sendo necessário uma conexão com a internet.</p>
-            </div>
-          </div>
+          <div class="col-xl-6 col-lg-6 d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+            <div class="box-heading" data-aos="fade-up">
+             <div class="col-sm-12">
+                <div class="icon-box">
+                  <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                  <img src="../img/cadeado.png" width="64px" height="64px">
+                  <h4>Acesso imediato</h4>
+                  <p>Compre o curso agora por R$ 00,00 e você vai possuir acesso liberado imediatamente a todas as aulas do programa "Ser Vereador"</p>
+                </div>
+              </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <img src="../img/livro.png" width="64px" height="64px">
-              <h4>O melhor conteúdo</h4>
-              <p>Garantimos que todos que comprarem vão obter todas as informações, de forma clara e objetiva, necessárias para um pré-candidato à vereador.</p>
+              <div class="col-sm-12">
+                <div class="icon-box">
+                  <div class="icon"><i class="bx bx-file"></i></div>
+                  <img src="../img/brasil.png" width="64px" height="64px">
+                  <h4>Acesso ao Brasil inteiro</h4>
+                  <p>O curso é totalmente online e garantimos acesso em todo o Brasil, sendo necessário uma conexão com a internet.</p>
+                </div>
+              </div>
+
+              <div class="col-sm-12">
+                <div class="icon-box">
+                  <div class="icon"><i class="bx bx-tachometer"></i></div>
+                  <img src="../img/livro.png" width="64px" height="64px">
+                  <h4>O melhor conteúdo</h4>
+                  <p>Garantimos que todos que comprarem vão obter todas as informações, de forma clara e objetiva, necessárias para um pré-candidato à vereador.</p>
+                </div>
+              </div>
             </div>
+
           </div>
         </div>
-
       </div>
     </section>
+
 <hr/>
+
   <section id="aux" class="aux">
     <div class="container">
       <div class="col-sm-12 my-5">  
@@ -116,52 +131,47 @@
         <div class="row">
           <div class="col-lg-4">
             <div class="box">
-              <span>01</span>
-              <h4>Lorem Ipsum</h4>
-              <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+              <span>AULA - 01</span>
+              <p><b>MENSAGEM AOS CANDIDATOS E APRESENTAÇÃO DO TRABALHO</b></p>
             </div>
           </div>
           
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box">
-              <span>02</span>
-              <h4>Repellat Nihil</h4>
-              <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+              <span>AULA - 02</span>
+              <p><b>QUESTIONAMENTOS QUE ORIENTAM O COMPORTAMENTO DO CANDIDATO</b></p>
             </div>
           </div>
           
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box">
-              <span>03</span>
-              <h4> Ad ad velit qui</h4>
-              <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+              <span>AULA - 03</span>
+              <p><b>DIRETRIZES PARA A REALIZAÇÃO DE UMA BOA CAMPANHA</b></p>
             </div>
           </div>
 
             <div class="col-lg-4 mt-4 mt-lg-0">
 <br><br>
               <div class="box">
-                <span>04</span>
-                <h4> Ad ad velit qui</h4>
-                <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+                <span>AULA - 04</span>
+                <p><b>DICAS MOTIVACIONAIS PARA O DESENVOLVIMENTO DO TRABALHO DO CANDIDATO</b></p>
               </div>
             </div>
 
             <div class="col-lg-4 mt-4 mt-lg-0">
 <br><br>
               <div class="box">
-                <span>05</span>
-                <h4> Ad ad velit qui</h4>
-                <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+                <span>AULA - 05</span>
+                <p><b>NOÇÕES DE ORATÓRIA PARA MELHORAR A COMUNICAÇÃO DO CANDIDATO</b></p>
               </div>
             </div>
 
             <div class="col-lg-4 mt-4 mt-lg-0">
 <br><br>
               <div class="box">
-                <span>06</span>
-                <h4> Ad ad velit qui</h4>
-                <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+                <span>AULA - 06</span>
+                <p><b>ORIENTAÇÕES FINAIS AO CANDIDATO</b></p>
+                <br>
               </div>
             </div>
 
@@ -170,7 +180,6 @@
     </div>
   </section>
 <hr/>
- 
         <section id="contact" class="contact">
           <div class="container">
             <div class="col-sm-12">

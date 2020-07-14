@@ -49,23 +49,18 @@
     <div class="container">     
       <div class="col-sm-12">
         <div class="row justify-content-center my-3"> 
-          <h3><center>Deposite o dinheiro em uma das contas abaixo e faça o seu cadastro, logo após, espere o código de acesso, que será enviado em seu e-mail ou via whatsapp.</center></h3>
+          <h3><center>Deposite o valor do curso na conta abaixo e faça o seu cadastro, logo após, espere o código de acesso, que será enviado em seu e-mail ou via whatsapp.</center></h3>
         </div>    
-          <div class="row">  
+          <div class="row justify-content-center">  
             <div class="col-sm-6">  
               <div class="box">  
-                <h5>Renato:</h5>
-                <p>Banco: xxxxxxxxxx </p>
-                <p>Agência: xxxx-x </p>
-                <p>Nº Conta: xx.xxx-x </p>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="box">  
-                <h5>Chico:</h5>
-                <p>Banco: xxxxxxxxxx </p>
-                <p>Agência: xxxx-x </p>
-                <p>Nº Conta: xx.xxx-x </p>
+                <h5>CONTA POUPANÇA</h5>
+                <p><b>1º TITULAR:</b> Francisco</p>
+                <p><b>2º TITULAR:</b> Renato</p>
+                <p><b>BANCO:</b> CAIXA ECONÔMICA </p>
+                <p><b>AGÊNCIA:</b> 3676</p>
+                <p><b>OPERAÇÃO:</b> 013 - CONTA POUPANÇA</p>
+                <p><b>Nº CONTA:</b> 7584-8</p>
               </div>
             </div>
           </div>
