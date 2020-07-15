@@ -81,8 +81,7 @@
           <div class="row justify-content-center my-5">
             <p>Vídeo explicativo e introdutório sobre o programa <span>Ser Vereador</span>.</p>
             <video width="720" height="480" controls="controls" poster="../img/video_index_fundo.jpg" id="video">
-              <source src="video_index.mp4" type="video/mp4">
-                Seu navegador nao suporta este vídeo.
+              <source src="../videos/video_index.mp4" type="video/mp4">
             </video>
           </div>
 
@@ -154,7 +153,7 @@
 <br><br>
               <div class="box">
                 <span>Aula 04.</span>
-                <li>Dicas motivacionais para o desenvolvimento do trabalho></li>
+                <li>Dicas motivacionais para o desenvolvimento do trabalho</li>
               </div>
             </div>
 

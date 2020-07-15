@@ -26,7 +26,7 @@
       <div class="container d-flex">
         <div class="logo mr-auto">
           <h1 class="text-light">
-            <a href="index.php">Ser Vereador</a>
+            <a>Ser Vereador</a>
           </h1>
         </div>
 
@@ -56,7 +56,7 @@
               <div class="card-header" id="headingOne">
                 <h5 class="mb-0">
                   <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                    Aula 01
+                    Aula 01 - Mensagens aos Candidatos e Apresentação do Trabalho
                   </button>
                 </h5>
               </div>
@@ -65,12 +65,13 @@
                   <div class="jumbotron jumbotron-fluid">
                     <div class="col-sm-12">
                       <h1 class="display-4">Aula 01</h1>
-                      <p class="lead" align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum orci lorem, ut venenatis enim euismod eget. Suspendisse eu odio nulla. Nulla felis nulla, egestas in lacus eu, fringilla dapibus turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi erat lacus, fringilla sed velit hendrerit, tempor rhoncus nulla. Proin maximus, libero sollicitudin convallis gravida, erat velit lobortis risus, sit amet egestas nisl neque dignissim neque. Quisque a sagittis lorem.</p>
                     </div>
                     <div class="row justify-content-center mb-5">
                       <div class="col-sm-6 ml-3">
                         <div class="embed-responsive embed-responsive-16by9">
-                          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/c0i88t0Kacs"></iframe>
+                          <video width="720" height="480" controls="controls" poster="../img/video_index_fundo.jpg" id="video">
+                            <source src="../videos/video_index.mp4" type="video/mp4">
+                          </video>
                         </div>
                       </div>
                     </div>
@@ -83,7 +84,7 @@
               <div class="card-header" id="headingTwo">
                 <h5 class="mb-0">
                   <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Aula 02
+                    Aula 02 - Questionamentos que Orientam o Comportamento do Candidato
                   </button>
                 </h5>
               </div>
@@ -92,12 +93,13 @@
                   <div class="jumbotron jumbotron-fluid">
                     <div class="col-sm-12">
                       <h1 class="display-4">Aula 02</h1>
-                      <p class="lead" align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum orci lorem, ut venenatis enim euismod eget. Suspendisse eu odio nulla. Nulla felis nulla, egestas in lacus eu, fringilla dapibus turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi erat lacus, fringilla sed velit hendrerit, tempor rhoncus nulla. Proin maximus, libero sollicitudin convallis gravida, erat velit lobortis risus, sit amet egestas nisl neque dignissim neque. Quisque a sagittis lorem.</p>
                     </div>
                     <div class="row justify-content-center mb-5">
                       <div class="col-sm-6 ml-3">
                         <div class="embed-responsive embed-responsive-16by9">
-                          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JSRtYpNRoN0"></iframe>
+                          <video width="720" height="480" controls="controls" poster="../img/video_index_fundo.jpg" id="video">
+                            <source src="../videos/video_index.mp4" type="video/mp4">
+                          </video>
                         </div>
                       </div>
                     </div>
@@ -110,7 +112,7 @@
               <div class="card-header" id="headingThree">
                 <h5 class="mb-0">
                   <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Aula 03
+                    Aula 03 - Diretrizes para a Realização de uma Boa Campanha
                   </button>
                 </h5>
               </div>
@@ -119,12 +121,13 @@
                   <div class="jumbotron jumbotron-fluid">
                     <div class="col-sm-12">
                       <h1 class="display-4">Aula 03</h1>
-                      <p class="lead" align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum orci lorem, ut venenatis enim euismod eget. Suspendisse eu odio nulla. Nulla felis nulla, egestas in lacus eu, fringilla dapibus turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi erat lacus, fringilla sed velit hendrerit, tempor rhoncus nulla. Proin maximus, libero sollicitudin convallis gravida, erat velit lobortis risus, sit amet egestas nisl neque dignissim neque. Quisque a sagittis lorem.</p>
                     </div>
                     <div class="row justify-content-center mb-5">
                       <div class="col-sm-6 ml-3">
                         <div class="embed-responsive embed-responsive-16by9">
-                          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EIFHVyPdlBw"></iframe>
+                          <video width="720" height="480" controls="controls" poster="../img/video_index_fundo.jpg" id="video">
+                            <source src="../videos/video_index.mp4" type="video/mp4">
+                          </video>
                         </div>
                       </div>
                     </div>
@@ -137,7 +140,7 @@
               <div class="card-header" id="headingFour">
                 <h5 class="mb-0">
                   <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    Aula 04
+                    Aula 04 - Dicas Motivacionais para o Desenvolvimento do Trabalho
                   </button>
                 </h5>
               </div>
@@ -146,12 +149,13 @@
                   <div class="jumbotron jumbotron-fluid">
                     <div class="col-sm-12">
                       <h1 class="display-4">Aula 04</h1>
-                      <p class="lead" align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum orci lorem, ut venenatis enim euismod eget. Suspendisse eu odio nulla. Nulla felis nulla, egestas in lacus eu, fringilla dapibus turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi erat lacus, fringilla sed velit hendrerit, tempor rhoncus nulla. Proin maximus, libero sollicitudin convallis gravida, erat velit lobortis risus, sit amet egestas nisl neque dignissim neque. Quisque a sagittis lorem.</p>
                     </div>
                     <div class="row justify-content-center mb-5">
                       <div class="col-sm-6 ml-3">
                         <div class="embed-responsive embed-responsive-16by9">
-                          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kE7li_u1nmg"></iframe>
+                          <video width="720" height="480" controls="controls" poster="../img/video_index_fundo.jpg" id="video">
+                            <source src="../videos/video_index.mp4" type="video/mp4">
+                          </video>
                         </div>
                       </div>
                     </div>
@@ -164,7 +168,7 @@
               <div class="card-header" id="headingFive">
                 <h5 class="mb-0">
                   <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                    Aula 05
+                    Aula 05 - Noções de Oratória para Melhorar a Comunicação do Candidato
                   </button>
                 </h5>
               </div>
@@ -173,12 +177,13 @@
                   <div class="jumbotron jumbotron-fluid">
                     <div class="col-sm-12">
                       <h1 class="display-4">Aula 05</h1>
-                      <p class="lead" align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum orci lorem, ut venenatis enim euismod eget. Suspendisse eu odio nulla. Nulla felis nulla, egestas in lacus eu, fringilla dapibus turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi erat lacus, fringilla sed velit hendrerit, tempor rhoncus nulla. Proin maximus, libero sollicitudin convallis gravida, erat velit lobortis risus, sit amet egestas nisl neque dignissim neque. Quisque a sagittis lorem.</p>
                     </div>
                     <div class="row justify-content-center mb-5">
                       <div class="col-sm-6 ml-3">
                         <div class="embed-responsive embed-responsive-16by9">
-                          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kE7li_u1nmg"></iframe>
+                          <video width="720" height="480" controls="controls" poster="../img/video_index_fundo.jpg" id="video">
+                            <source src="../videos/video_index.mp4" type="video/mp4">
+                          </video>
                         </div>
                       </div>
                     </div>
@@ -191,7 +196,7 @@
               <div class="card-header" id="headingSix">
                 <h5 class="mb-0">
                   <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                    Aula 06
+                    Aula 06 - Orientações Finais ao Candidato
                   </button>
                 </h5>
               </div>
@@ -200,12 +205,13 @@
                   <div class="jumbotron jumbotron-fluid">
                     <div class="col-sm-12">
                       <h1 class="display-4">Aula 06</h1>
-                      <p class="lead" align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum orci lorem, ut venenatis enim euismod eget. Suspendisse eu odio nulla. Nulla felis nulla, egestas in lacus eu, fringilla dapibus turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi erat lacus, fringilla sed velit hendrerit, tempor rhoncus nulla. Proin maximus, libero sollicitudin convallis gravida, erat velit lobortis risus, sit amet egestas nisl neque dignissim neque. Quisque a sagittis lorem.</p>
                     </div>
                     <div class="row justify-content-center mb-5">
                       <div class="col-sm-6 ml-3">
                         <div class="embed-responsive embed-responsive-16by9">
-                          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kE7li_u1nmg"></iframe>
+                          <video width="720" height="480" controls="controls" poster="../img/video_index_fundo.jpg" id="video">
+                            <source src="../videos/video_index.mp4" type="video/mp4">
+                          </video>
                         </div>
                       </div>
                     </div>

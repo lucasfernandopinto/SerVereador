@@ -6,7 +6,7 @@ use vereador;
 
 CRIAR A TABELA USUÁRIOS:
 create table usuarios (
-	id int not null auto_increment primary key,
+    id int not null auto_increment primary key,
     nome varchar(30) not null,
     telefone varchar(30) not null,
     email varchar(40) not null,
@@ -28,4 +28,11 @@ create table administrador (
     nome varchar(30) not null,
     email varchar(40) not null,
     senha varchar(32) not null
+);
+
+CRIAR A TABELA CERTIFICADO:
+create table certificado (
+    certificado int not null auto_increment primary key,
+    nome varchar(80) not null,
+    contato varchar(80) not null
 );

@@ -57,6 +57,9 @@
             <li class="nav-item active">
               <a href="controle_cadastro.php">Cadastro</a>
             </li>
+            <li class="nav-item">
+              <a href="verificar_certificado.php">Certificado</a>
+            </li>
           </ul>
         </nav>
       </div>

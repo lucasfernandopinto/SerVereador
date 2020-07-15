@@ -7,10 +7,10 @@
     mysqli_query($con, "SET character_set_client=utf8");
     mysqli_query($con, "SET character_set_results=utf8");
 
-    $sql = "SELECT * FROM mensagem";
+    $sql = "SELECT * FROM certificado";
     $stmt = $con->prepare($sql);
     $stmt->execute();
-    $stmt->bind_result($comunicacao, $nome, $contato, $assunto, $mensagem);
+    $stmt->bind_result($certificado, $nome, $contato);
 ?>
 
 <!DOCTYPE html>
@@ -44,13 +44,13 @@
             <li class="nav-item">
               <a href="index_adm.php ">Início</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a href="verificar_contato.php">Contato</a>
             </li>
             <li class="nav-item">
               <a href="controle_cadastro.php">Cadastro</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a href="verificar_certificado.php">Certificado</a>
             </li>
           </ul>
@@ -59,7 +59,7 @@
     </header>
 
     <div class="container">
-    	<h1>Verificar Mensagens</h1><br>
+    	<h1>Verificar Informações dos Certificados</h1><br>
 
       <div class="table-responsive">
 
@@ -69,20 +69,16 @@
 	        		<th>Id</th>
 	        		<th>Nome</th>
 	          	<th>Contato</th>
-			        <th>Assunto</th>
-			        <th>Mensagem</th>
-	        	</tr>
+			      </tr>
 	      	</thead>
 		    
 		    <tbody class = "table-secondary">
 		    	<?php
 		        	while($stmt->fetch()) {
 		            	echo "<tr>\n";
-		            	echo "<td>".$comunicacao."</td>\n";
+		            	echo "<td>".$certificado."</td>\n";
 		            	echo "<td>".$nome."</td>\n";
 		            	echo "<td>".$contato."</td>\n";
-		            	echo "<td>".$assunto."</td>\n";
-		            	echo "<td>".$mensagem."</td>\n";
 		            	echo "</tr>\n";
 		          	}
 		        ?>  
