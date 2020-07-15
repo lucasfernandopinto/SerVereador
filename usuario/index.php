@@ -29,7 +29,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
     <link href="../icofont/icofont.min.css" rel="stylesheet">
-    <link href="../venobox/venobox.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="estilo.css">
 
     <title>Ser Vereador</title>
@@ -77,25 +76,27 @@
 
     <section id="services" class="services">
       <div class="container">
+        <div class="col-sm-12">
 
-        <div class="row">
-          <div class="col-xl-6 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="zoom-in">
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
-            <p id="legenda">Vídeo explicativo e introdutório sobre o curso.</p>
+          <div class="row justify-content-center my-5">
+            <p>Vídeo explicativo e introdutório sobre o programa <span>Ser Vereador</span>.</p>
+            <video width="720" height="480" controls="controls" poster="../img/video_index_fundo.jpg" id="video">
+              <source src="video_index.mp4" type="video/mp4">
+                Seu navegador nao suporta este vídeo.
+            </video>
           </div>
 
-          <div class="col-xl-6 col-lg-6 d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
-            <div class="box-heading" data-aos="fade-up">
-             <div class="col-sm-12">
+         <div class="row justify-content-center">
+             <div class="col-sm-4">
                 <div class="icon-box">
                   <div class="icon"><i class="bx bxl-dribbble"></i></div>
                   <img src="../img/cadeado.png" width="64px" height="64px">
                   <h4>Acesso imediato</h4>
-                  <p>Compre o curso agora por R$ 00,00 e você vai possuir acesso liberado imediatamente a todas as aulas do programa "Ser Vereador"</p>
+                  <p>Compre o curso agora por R$ 00,00 e você vai possuir acesso liberado imediatamente a todas as aulas do programa "Ser Vereador".</p>
                 </div>
               </div>
 
-              <div class="col-sm-12">
+              <div class="col-sm-4">
                 <div class="icon-box">
                   <div class="icon"><i class="bx bx-file"></i></div>
                   <img src="../img/brasil.png" width="64px" height="64px">
@@ -104,7 +105,7 @@
                 </div>
               </div>
 
-              <div class="col-sm-12">
+              <div class="col-sm-4">
                 <div class="icon-box">
                   <div class="icon"><i class="bx bx-tachometer"></i></div>
                   <img src="../img/livro.png" width="64px" height="64px">
@@ -113,11 +114,10 @@
                 </div>
               </div>
             </div>
-
+            
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
 <hr/>
 
@@ -125,52 +125,52 @@
     <div class="container">
       <div class="col-sm-12 my-5">  
         <div class="row justify-content-center">
-          <h3>O que é ser um vereador?</h3>
-          <p>O curso Ser Vereador possui x horas de conteúdo dividido em 5 aulas, com módulos que você pode ver e rever a qualquer momento.</p>
+          <h3>O que é ser um <strong>vereador</strong>?</h3>
+          <p>O curso Ser Vereador possui x horas de conteúdo dividido em 6 aulas, com módulos que você pode ver e rever a qualquer momento.</p>
         </div>
         <div class="row">
           <div class="col-lg-4">
             <div class="box">
-              <span>AULA - 01</span>
-              <p><b>MENSAGEM AOS CANDIDATOS E APRESENTAÇÃO DO TRABALHO</b></p>
+              <span>Aula 01.</span>
+              <li>Mensagens aos candidatos e apresentação do trabalho</li>
             </div>
           </div>
           
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box">
-              <span>AULA - 02</span>
-              <p><b>QUESTIONAMENTOS QUE ORIENTAM O COMPORTAMENTO DO CANDIDATO</b></p>
+              <span>Aula 02.</span>
+              <li>Questionamentos que orientam o comportamento do candidato</li>
             </div>
           </div>
           
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box">
-              <span>AULA - 03</span>
-              <p><b>DIRETRIZES PARA A REALIZAÇÃO DE UMA BOA CAMPANHA</b></p>
+              <span>Aula 03.</span>
+              <li>Diretrizes para a realização de uma boa campanha</li>
             </div>
           </div>
 
             <div class="col-lg-4 mt-4 mt-lg-0">
 <br><br>
               <div class="box">
-                <span>AULA - 04</span>
-                <p><b>DICAS MOTIVACIONAIS PARA O DESENVOLVIMENTO DO TRABALHO DO CANDIDATO</b></p>
+                <span>Aula 04.</span>
+                <li>Dicas motivacionais para o desenvolvimento do trabalho></li>
               </div>
             </div>
 
             <div class="col-lg-4 mt-4 mt-lg-0">
 <br><br>
               <div class="box">
-                <span>AULA - 05</span>
-                <p><b>NOÇÕES DE ORATÓRIA PARA MELHORAR A COMUNICAÇÃO DO CANDIDATO</b></p>
+                <span>Aula 05.</span>
+                <li>Noções de oratória para melhorar a comunicação do candidato</li>
               </div>
             </div>
 
             <div class="col-lg-4 mt-4 mt-lg-0">
 <br><br>
               <div class="box">
-                <span>AULA - 06</span>
-                <p><b>ORIENTAÇÕES FINAIS AO CANDIDATO</b></p>
+                <span>Aula 06.</span>
+                <li>Orientações finais ao candidato</li>
                 <br>
               </div>
             </div>
@@ -185,7 +185,7 @@
             <div class="col-sm-12">
               <div class="row justify-content-center mt-5">
                 <div class="col-4">                  
-                  <h3><strong><center>Localização e Contatos</center></strong></h3>   
+                  <h3><strong><center>Localização & Contatos</center></strong></h3>   
                   <p><center>Para qualquer dúvida, entre em contato:</center></p>           
                     <div class="info" id="contatoPosition">
                       <div class="address">

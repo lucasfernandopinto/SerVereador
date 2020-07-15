@@ -45,40 +45,84 @@
       </div>
     </header>
 
-  <section id="compra"> 
+  <section id="compra" class="compra"> 
     <div class="container">     
-      <div class="col-sm-12">
-        <div class="row justify-content-center my-3"> 
-          <h3><center>Deposite o valor do curso na conta abaixo e faça o seu cadastro, logo após, espere o código de acesso, que será enviado em seu e-mail ou via whatsapp.</center></h3>
-        </div>    
-          <div class="row justify-content-center">  
-            <div class="col-sm-6">  
-              <div class="box">  
-                <h5>CONTA POUPANÇA</h5>
-                <p><b>1º TITULAR:</b> Francisco</p>
-                <p><b>2º TITULAR:</b> Renato</p>
-                <p><b>BANCO:</b> CAIXA ECONÔMICA </p>
-                <p><b>AGÊNCIA:</b> 3676</p>
-                <p><b>OPERAÇÃO:</b> 013 - CONTA POUPANÇA</p>
-                <p><b>Nº CONTA:</b> 7584-8</p>
-              </div>
-            </div>
-          </div>
-        <div class="row justify-content-center my-3">    
-          <a href="index.php" class="btn btn-primary">Cancelar</a>
-        </div>
+      <div class="row justify-content-center my-3">   
+        <h3><center>Deposite o valor do curso na conta abaixo e faça o seu cadastro, logo após, espere o código de acesso, que será enviado em seu e-mail ou via whatsapp.</center></h3>
       </div>
-    </div>
-  </section>
 
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
+      <div class="row justify-content-center my-4">  
+        <p><center>O programa Ser Vereador custa apenas R$99,00 e não possui mensalidade. Você só paga uma vez e obtém acesso ao curso a qualquer momento.</center></p>
+      </div>  
+
+          <div class="col-sm-12" id="bordaCompra" >
+            <div class="row justify-content-center my-3">      
+              <div class="col-sm-8">  
+                <div class="box">  
+                  <div class="row justify-content-center my-3">
+                    <img src="../img/banco.png" witdh="70px" height="70px">
+                  </div>
+                  <h5> CONTA POUPANÇA</h5>
+                  <p>1º TITULAR: Francisco</p>
+                  <p>2º TITULAR: Renato</p>
+                  <p>BANCO: CAIXA ECONÔMICA </p>
+                  <p>AGÊNCIA: 3676</p>
+                  <p>OPERAÇÃO: 013 - CONTA POUPANÇA</p>
+                  <p>Nº CONTA: 7584-8</p>
+                </div>
+                
+                <div class="row justify-content-center my-3"> 
+                  <a href="index.php" class="btn btn-primary">Cancelar</a>
+                </div>
+
+              </div>
+              <div class="col-sm-4"> 
+                <div class="col-sm-12">
+                  <div class="icon-box">
+                    <div class="icon"></div>
+                    <h4><i class="icofont-lock"></i>Privacidade</h4>
+                    <p>Suas informações 100% seguras.</p>
+                  </div>
+                </div>
+
+                <br/>
+
+                <div class="col-sm-12">
+                  <div class="icon-box">
+                    <div class="icon"></div>
+                    <h4><i class="icofont-safety"></i>Segurança</h4>
+                    <p>Ambiente seguro e confiável.</p>
+                  </div>
+                </div>
+
+                <br/>
+
+                <div class="col-sm-12">
+                  <div class="icon-box">
+                    <div class="icon"></div>
+                    <h4><i class="icofont-email"></i>Entrega</h4>
+                    <p>Acesso ao curso via e-mail ou whatsapp.</p>
+                  </div>
+                </div>
+
+                <br/>
+
+                <div class="col-sm-12">
+                  <div class="icon-box">
+                    <div class="icon"></div>
+                    <h4><i class="icofont-check-circled"></i>Conteúdo de qualidade</h4>
+                    <p>Garantimos um conteúdo de qualidade e primordial.</p>
+                  </div>
+                </div>
+
+                <h3><center>Aproveite esta oferta por apenas <strong> R$99,00.</strong></center></h3>
+
+              </div>
+            </div>        
+          </div>
+        </div>
+      </section>
+
   <br/>
   <br/>
 
