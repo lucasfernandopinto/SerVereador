@@ -58,9 +58,6 @@
             <li class="nav-item">
               <a href="cadastro.php">Cadastrar-se</a>
             </li>
-            <li class="nav-item">
-              <a href="contato.php">Entre em contato</a>
-            </li>
           </ul>
         </nav>
       </div>
@@ -81,7 +78,7 @@
           <div class="row justify-content-center my-5">
             <p>Vídeo explicativo e introdutório sobre o programa <span>Ser Vereador</span>.</p>
             <video width="720" height="480" controls="controls" poster="../img/video_index_fundo.jpg" id="video">
-              <source src="../videos/video_index.mp4" type="video/mp4">
+              <source src="../videos/CHAMADA.mp4" type="video/mp4">
             </video>
           </div>
 
