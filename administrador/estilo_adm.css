@@ -58,7 +58,12 @@
   text-decoration: none;
 }
 
-#bordaLogin{
+.bi{
+  position: relative;
+  margin-left: 294px;
+}
+
+#loginAdm{
    border-width: 25px;
    border-style: inset;
    border-radius: 10px;
@@ -66,6 +71,12 @@
    margin-bottom: 60px;
    border-color: #483D8B;
    background-color: #F8F8FF;
+}
+
+#loginAdm .btn-primary {
+  color: #fff;
+  background-color: #483D8B;
+  border-color: #483D8B;
 }
 
 #bordaCadastro{

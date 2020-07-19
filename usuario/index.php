@@ -122,26 +122,26 @@
       <div class="col-sm-12 my-5">  
         <div class="row justify-content-center">
           <h3>O que é ser um <strong>vereador</strong>?</h3>
-          <p>O curso Ser Vereador possui x horas de conteúdo dividido em 6 aulas, com módulos que você pode ver e rever a qualquer momento.</p>
+          <p>O curso Ser Vereador possui x horas de conteúdo dividido em 5 aulas, com módulos que você pode ver e rever a qualquer momento.</p>
         </div>
         <div class="row">
           <div class="col-lg-4">
             <div class="box">
-              <span>Aula 01.</span>
+              <span>Introdução.</span>
               <li>Mensagens aos candidatos e apresentação do trabalho</li>
             </div>
           </div>
           
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box">
-              <span>Aula 02.</span>
+              <span>Aula 01.</span>
               <li>Questionamentos que orientam o comportamento do candidato</li>
             </div>
           </div>
           
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box">
-              <span>Aula 03.</span>
+              <span>Aula 02.</span>
               <li>Diretrizes para a realização de uma boa campanha</li>
             </div>
           </div>
@@ -149,7 +149,7 @@
             <div class="col-lg-4 mt-4 mt-lg-0">
 <br><br>
               <div class="box">
-                <span>Aula 04.</span>
+                <span>Aula 03.</span>
                 <li>Dicas motivacionais para o desenvolvimento do trabalho</li>
               </div>
             </div>
@@ -157,7 +157,7 @@
             <div class="col-lg-4 mt-4 mt-lg-0">
 <br><br>
               <div class="box">
-                <span>Aula 05.</span>
+                <span>Aula 04.</span>
                 <li>Noções de oratória para melhorar a comunicação do candidato</li>
               </div>
             </div>
@@ -165,7 +165,7 @@
             <div class="col-lg-4 mt-4 mt-lg-0">
 <br><br>
               <div class="box">
-                <span>Aula 06.</span>
+                <span>Aula 05.</span>
                 <li>Orientações finais ao candidato</li>
                 <br>
               </div>
@@ -198,9 +198,8 @@
 
                       <div class="phone">
                         <i class="icofont-phone"></i>
-                        <h4>Contatos:</h4>
-                        <p>Renato: (47) 99784-1826</p>
-                        <p>Chico: (46) 9998-1226</p>
+                        <h4>Contato</h4>
+                        <p>(45) 999812-9576</p>
                       </div>
                     </div>
                   </div>

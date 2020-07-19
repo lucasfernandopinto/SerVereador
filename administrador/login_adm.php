@@ -40,7 +40,7 @@
       </div>
     </header>
 
-    <div class="container" id="bordaLogin">
+    <div class="container" id="loginAdm">
       <div class="row">
         <div class="col-sm-12 text-center my-3">
           <h1>Login</h1>
