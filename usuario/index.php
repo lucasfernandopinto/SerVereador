@@ -199,7 +199,8 @@
                       <div class="phone">
                         <i class="icofont-phone"></i>
                         <h4>Contatos:</h4>
-                        <p>(45) 99812-9576</p>
+                        <p>Renato: (47) 99784-1826</p>
+                        <p>Chico: (46) 9998-1226</p>
                       </div>
                     </div>
                   </div>
