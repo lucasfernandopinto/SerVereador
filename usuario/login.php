@@ -110,7 +110,7 @@
               {
                 ?>
                   <div id="msg-erro">
-                    Email e/ou senha estão incorretos!
+                    E-mail, senha e/ou código de acesso estão incorretos!
                   </div>
                 <?php
               }
