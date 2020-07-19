@@ -66,7 +66,7 @@
       <div clas="col-sm-12">
         <div class="row my-3"> 
           <div class="col-sm-4">  
-            <a href="alterar_cadastro.php" class="btn btn-primary"><p>CONTROLE CERTIFICADO</p></a>
+            <a href="verificar_certificado.php" class="btn btn-primary"><p>CONTROLE CERTIFICADO</p></a>
           </div>
           <div class="col-sm-4">  
             <a href="controle_cadastro.php" class="btn btn-primary"><p>CONTROLE CADASTRO</p></a>
