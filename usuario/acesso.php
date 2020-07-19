@@ -25,30 +25,12 @@
             <a href="index.php">Ser Vereador</a>
           </h1>
         </div>
-
-        <nav class="nav-menu d-none d-lg-block">
-          <ul>
-            <li class="nav-item">
-              <a href="index.php">Início</a>
-            </li>
-            <li class="nav-item">
-              <a href="compra.php">Compre Agora</a>
-            </li>
-            <li class="nav-item active">
-              <a href="login.php">Entrar</a>
-            </li>
-            <li class="nav-item">
-              <a href="cadastro.php">Cadastrar-se</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
     </header>
 
     <div class="container" id="bordaLogin">
       <div class="row">
         <div class="col-sm-12 text-center my-3">
-          <h1>Login</h1>
+          <h1>Código de Acesso</h1>
         </div>
 
         <div class="row justify-content-center mb-5">
@@ -66,24 +48,13 @@
           <form method="POST">
             <div class="form-row">
               <div class="form-group col-sm-12">
-                <label for="inputEmail">E-mail</label>
-                <input type="text" name="email" class="form-control" id="inputEmail" placeholder="exemplo@gmail.com" required>
-              </div>
-
-              <div class="form-group col-sm-12">
-                <label for="inputPassword">Senha</label>
-                <input type="password" name="senha" id="inputPassword" class="form-control" placeholder="Senha..." required>
-              </div>
-
-              <div class="form-group col-sm-12">
-                <label for="inputAcesso">Acesso</label>
-                <input type="text" name="acesso" id="inputAcesso" class="form-control" placeholder="Acesso..." required>
+                <label for="inputAcesso">Código de Acesso</label>
+                <input type="text" name="acesso" class="form-control" id="inputAcesso" placeholder="123" required>
               </div>
 
               <div class="form-group col-sm-12">
                 <a href="index.php" class="btn btn-primary">Cancelar </a>
-                <button type="submit" class="btn btn-primary">Entrar</button>
-                <a href="cadastro.php" class="btn btn-primary">Cadastre-se </a>
+                <button type="submit" class="btn btn-primary">Validar</button>
               </div>
             </div>
           </form>
@@ -91,18 +62,16 @@
       </div>
 
       <?php
-        if(isset($_POST['email']))
+        if(isset($_POST['acesso']))
         {
-          $email = addslashes($_POST['email']);
-          $senha = addslashes($_POST['senha']);
           $acesso = addslashes($_POST['acesso']);
-
-          if(!empty($email) && !empty($senha) && !empty($acesso))
+          
+          if(!empty($acesso))
           {
             $u->conectar("vereador", "localhost", "root", "");
             if($u->msgErro == "")
             {
-              if ($u->logar($email, $senha, $acesso)) 
+              if ($u->validar($acesso)) 
               {
                 header("location: aulas.php");
               }
@@ -110,7 +79,7 @@
               {
                 ?>
                   <div id="msg-erro">
-                    Email e/ou senha estão incorretos!
+                    Acesso Inválido!
                   </div>
                 <?php
               }

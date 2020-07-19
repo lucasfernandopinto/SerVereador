@@ -39,13 +39,14 @@
 			}
 		}
 
-		public function logar($email, $senha)
+		public function logar($email, $senha, $acesso)
 		{
 			global $pdo;
 
-			$sql = $pdo->prepare("SELECT id FROM usuarios WHERE email = :e and senha = :s");
+			$sql = $pdo->prepare("SELECT id FROM usuarios WHERE email = :e and senha = :s and acesso = :a");
 			$sql->bindValue(":e", $email);
 			$sql->bindValue(":s", md5($senha));
+			$sql->bindValue(":a", ($acesso));
 			$sql->execute();
 
 			if($sql->rowCount() > 0)
@@ -54,7 +55,7 @@
 				session_start();
 				$_SESSION['id'] = $dado['id'];
 				return true;
-			}
+			}	
 			else
 			{
 				return false;			

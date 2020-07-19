@@ -84,7 +84,7 @@
               <div class="card-header" id="headingTwo">
                 <h5 class="mb-0">
                   <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Introdução
+                    Aula 01 - Introdução: Mensagens aos candidatos e apresentação do trabalho
                   </button>
                 </h5>
               </div>
@@ -92,7 +92,7 @@
                 <div class="card-body">
                   <div class="jumbotron jumbotron-fluid">
                     <div class="col-sm-12">
-                      <h1 class="display-4">Introdução</h1>
+                      <h1 class="display-4">Aula 01</h1>
                     </div>
                     <div class="row justify-content-center mb-5">
                       <div class="col-sm-6 ml-3">
@@ -112,7 +112,7 @@
               <div class="card-header" id="headingThree">
                 <h5 class="mb-0">
                   <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Aula 01 - Questionamentos que Orientam o Comportamento do Candidato
+                    Aula 02 - Questionamentos que Orientam o Comportamento do Candidato
                   </button>
                 </h5>
               </div>
@@ -120,7 +120,7 @@
                 <div class="card-body">
                   <div class="jumbotron jumbotron-fluid">
                     <div class="col-sm-12">
-                      <h1 class="display-4">Aula 01</h1>
+                      <h1 class="display-4">Aula 02</h1>
                     </div>
                     <div class="row justify-content-center mb-5">
                       <div class="col-sm-6 ml-3">
@@ -140,7 +140,7 @@
               <div class="card-header" id="headingFour">
                 <h5 class="mb-0">
                   <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    Aula 02 - Diretrizes para a Realização de uma Boa Campanha
+                    Aula 03 - Diretrizes para a Realização de uma Boa Campanha
                   </button>
                 </h5>
               </div>
@@ -148,7 +148,7 @@
                 <div class="card-body">
                   <div class="jumbotron jumbotron-fluid">
                     <div class="col-sm-12">
-                      <h1 class="display-4">Aula 02</h1>
+                      <h1 class="display-4">Aula 03</h1>
                     </div>
                     <div class="row justify-content-center mb-5">
                       <div class="col-sm-6 ml-3">
@@ -168,7 +168,7 @@
               <div class="card-header" id="headingFive">
                 <h5 class="mb-0">
                   <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                    Aula 03 - Dicas Motivacionais para o Desenvolvimento do Trabalho
+                    Aula 04 - Dicas Motivacionais para o Desenvolvimento do Trabalho
                   </button>
                 </h5>
               </div>
@@ -176,7 +176,7 @@
                 <div class="card-body">
                   <div class="jumbotron jumbotron-fluid">
                     <div class="col-sm-12">
-                      <h1 class="display-4">Aula 03</h1>
+                      <h1 class="display-4">Aula 04</h1>
                     </div>
                     <div class="row justify-content-center mb-5">
                       <div class="col-sm-6 ml-3">
@@ -196,7 +196,7 @@
               <div class="card-header" id="headingSix">
                 <h5 class="mb-0">
                   <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                    Aula 04 - Noções de Oratória para Melhorar a Comunicação do Candidato
+                    Aula 05 - Noções de Oratória para Melhorar a Comunicação do Candidato
                   </button>
                 </h5>
               </div>
@@ -204,13 +204,13 @@
                 <div class="card-body">
                   <div class="jumbotron jumbotron-fluid">
                     <div class="col-sm-12">
-                      <h1 class="display-4">Aula 04</h1>
+                      <h1 class="display-4">Aula 05</h1>
                     </div>
                     <div class="row justify-content-center mb-5">
                       <div class="col-sm-6 ml-3">
                         <div class="embed-responsive embed-responsive-16by9">
                           <video width="720" height="480" controls="controls" poster="../img/video_index_fundo.jpg" id="video">
-                            <source src="../videos/video_index.mp4" type="video/mp4">
+                            <source src="../videos/AULA 4.mp4" type="video/mp4">
                           </video>
                         </div>
                       </div>
@@ -224,7 +224,7 @@
               <div class="card-header" id="headingSeven">
                 <h5 class="mb-0">
                   <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                    Aula 05 - Orientações Finais ao Candidato
+                    Aula 06 - Orientações Finais ao Candidato
                   </button>
                 </h5>
               </div>
@@ -232,7 +232,7 @@
                 <div class="card-body">
                   <div class="jumbotron jumbotron-fluid">
                     <div class="col-sm-12">
-                      <h1 class="display-4">Aula 05</h1>
+                      <h1 class="display-4">Aula 06</h1>
                     </div>
                     <div class="row justify-content-center mb-5">
                       <div class="col-sm-6 ml-3">
