@@ -61,8 +61,24 @@
       </div>
     </header>
 
-    <h1>ESTE É O MENU DE ADMINISTRAÇÃO DO SITE!</h1>
-    <h1>COLOCAR UM BOTÃO NO CENTRO DA TELA PARA CADA AÇÃO</h1>
+  <section class="indexAdm">  
+    <div class="container">  
+      <div clas="col-sm-12">
+        <div class="row my-3"> 
+          <div class="col-sm-4">  
+            <a href="alterar_cadastro.php" class="btn btn-primary"><p>CONTROLE CERTIFICADO</p></a>
+          </div>
+          <div class="col-sm-4">  
+            <a href="controle_cadastro.php" class="btn btn-primary"><p>CONTROLE CADASTRO</p></a>
+          </div>
+          <div class="col-sm-4">  
+            <a href="verificar_contato.php" class="btn btn-primary"><p>VERIFICAR CONTATOS</p></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
     <footer class="footer mt-auto py-4" id="rodape">
       <div class="col-sm-12">
         <span class="text-muted">&copy 2020</span>

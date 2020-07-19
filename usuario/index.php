@@ -237,7 +237,7 @@
                         
                         <div class="form-group">
                           <label for="mensagem">Mensagem:</label>
-                          <textarea type="text" class="form-control" id="mensagem" maxlength="200" name="mensagem" placeholder="Informe a Mensagem" required></textarea>
+                          <textarea type="text" class="form-control" id="mensagem" maxlength="500" name="mensagem" placeholder="Informe a Mensagem" required></textarea>
                           <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
                         </div>
 

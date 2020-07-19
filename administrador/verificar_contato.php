@@ -58,38 +58,44 @@
       </div>
     </header>
 
+  <section class="verificarContato">  
     <div class="container">
-    	<h1>Verificar Mensagens</h1><br>
+      <div class="col-sm-12">	
+        <div class="row justify-content-center my-3"> 
+          <h1>Verificar Mensagens</h1><br>
+        </div>
 
-      <div class="table-responsive">
+        <div class="table-responsive">
 
-      	<table class="table table-bordered table-hover">
-      		<thead class="thead-dark">
-      			<tr>
-	        		<th>Id</th>
-	        		<th>Nome</th>
-	          	<th>Contato</th>
-			        <th>Assunto</th>
-			        <th>Mensagem</th>
-	        	</tr>
-	      	</thead>
-		    
-		    <tbody class = "table-secondary">
-		    	<?php
-		        	while($stmt->fetch()) {
-		            	echo "<tr>\n";
-		            	echo "<td>".$comunicacao."</td>\n";
-		            	echo "<td>".$nome."</td>\n";
-		            	echo "<td>".$contato."</td>\n";
-		            	echo "<td>".$assunto."</td>\n";
-		            	echo "<td>".$mensagem."</td>\n";
-		            	echo "</tr>\n";
-		          	}
-		        ?>  
-		    </tbody>
-    	</table>
-    	</div>
+        	<table class="table table-bordered" id="tabelaContato">
+        		<thead class="thead">
+        			<tr>
+  	        		<th>Id</th>
+  	        		<th>Nome</th>
+  	          	<th>Contato</th>
+  			        <th>Assunto</th>
+  			        <th>Mensagem</th>
+  	        	</tr>
+  	      	</thead>
+  		    
+  		    <tbody class="table-secondary" id="tabelaSecundariaContato">
+  		    	<?php
+  		        	while($stmt->fetch()) {
+  		            	echo "<tr>\n";
+  		            	echo "<td>".$comunicacao."</td>\n";
+  		            	echo "<td>".$nome."</td>\n";
+  		            	echo "<td>".$contato."</td>\n";
+  		            	echo "<td>".$assunto."</td>\n";
+  		            	echo "<td>".$mensagem."</td>\n";
+  		            	echo "</tr>\n";
+  		          	}
+  		        ?>  
+  		    </tbody>
+      	</table>
+      	</div>
+      </div>
     </div>
+  </section>
 
     <footer class="footer mt-auto py-4" id="rodape">
       <div class="col-sm-12">

@@ -35,6 +35,7 @@
     <meta charset="utf-8">
 
     <link rel="stylesheet" type="text/css" href="estilo_adm.css">
+    <link href="../icofont/icofont.min.css" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -72,8 +73,10 @@
     </header>
 
     <div class="container">
-      <h1>Alterar os Dados do Cadastro</h1><br>
-      
+      <div class="row justify-content-center my-3">  
+        <h1><i class="icofont-edit"></i> Alterar os Dados do Cadastro</h1><br>
+      </div>
+
       <div class="row justify-content-center mb-5">
         <div class="col-sm-8">
           <form method="POST">

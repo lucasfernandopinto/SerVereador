@@ -65,52 +65,57 @@
       </div>
     </header>
 
+  <section class="cadastroControle">
     <div class="container">
-      <h1>Controle de Cadastros</h1><br>
-
-      <?php if(!empty($msg_sucesso)) { ?>
-        <div class="alert alert-success alert-dismissible fade show">
-        <button type="button" class="close" data-dismiss="alert">&times;</button>
-        <?php echo $msg_sucesso; ?>
+      <div class="col-sm-12">  
+        <div class="row justify-content-center my-3">  
+          <h1>Controle de Cadastros</h1><br>
         </div>
-      <?php } ?>
-      <?php if(!empty($msg_erro)) { ?>
-        <div class="alert alert-danger alert-dismissible fade show">
-        <button type="button" class="close" data-dismiss="alert">&times;</button>
-        <?php echo $msg_erro; ?>
+
+        <?php if(!empty($msg_sucesso)) { ?>
+          <div class="alert alert-success alert-dismissible fade show">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <?php echo $msg_sucesso; ?>
+          </div>
+        <?php } ?>
+        <?php if(!empty($msg_erro)) { ?>
+          <div class="alert alert-danger alert-dismissible fade show">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <?php echo $msg_erro; ?>
+          </div>
+        <?php } ?>
+
+        <div class="table-responsive">
+          <table class="table table-bordered" id="tabelaCadastro">
+            <thead class="thead">
+              <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Telefone</th>
+                <th>E-mail</th>
+                <th>Ações</th>
+              </tr>
+            </thead>
+
+            <tbody class="table-secondary" id="tabelaSecundariaCadastro">
+              <?php
+                while($stmt->fetch()) {
+                  echo "<tr>\n";
+                  echo "<td>".$usuario."</td>\n";
+                  echo "<td>".$nome."</td>\n";
+                  echo "<td>".$telefone."</td>\n";
+                  echo "<td>".$email."</td>\n";
+                  echo "<td><a class='btn btn-secondary' role='button' href='../usuario/cadastro.php?modo=excluir&id=".$usuario."'><i class='fas fa-trash'></i></a>&nbsp;&nbsp;<a class='btn btn-secondary' role='button' href='alterar_cadastro.php?categoria=".$usuario."'><i class='fas fa-edit'></i></a></td>\n";
+                  echo "</tr>\n";
+                 }
+               ?>  
+            </tbody>
+          </table>
         </div>
-      <?php } ?>
-
-      <div class="table-responsive">
-      <table class="table table-striped">
-      <thead class="thead-light">
-        <tr>
-          <th>Id</th>
-          <th>Nome</th>
-          <th>Telefone</th>
-          <th>E-mail</th>
-          <th>Ações</th>
-        </tr>
-      </thead>
-
-      <tbody>
-        <?php
-          while($stmt->fetch()) {
-            echo "<tr>\n";
-            echo "<td>".$usuario."</td>\n";
-            echo "<td>".$nome."</td>\n";
-            echo "<td>".$telefone."</td>\n";
-            echo "<td>".$email."</td>\n";
-            echo "<td><a class='btn btn-secondary' role='button' href='../usuario/cadastro.php?modo=excluir&id=".$usuario."'><i class='fas fa-trash'></i></a>&nbsp;&nbsp;<a class='btn btn-secondary' role='button' href='alterar_cadastro.php?categoria=".$usuario."'><i class='fas fa-edit'></i></a></td>\n";
-            echo "</tr>\n";
-          }
-        ?>  
-      </tbody>
-
-    </table>
+      </div>
     </div>
-    </div>
-
+  </section>
+    
     <footer class="footer mt-auto py-4" id="rodape">
       <div class="col-sm-12">
         <span class="text-muted">&copy 2020</span>

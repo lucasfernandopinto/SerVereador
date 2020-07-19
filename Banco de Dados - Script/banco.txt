@@ -19,7 +19,7 @@ create table mensagem (
     nome varchar(80) not null,
     contato varchar(80) not null,
     assunto varchar(50) not null,
-    mensagem varchar(200) not null
+    mensagem varchar(500) not null
 );
 
 CRIAR A TABELA ADMINISTRADOR:

@@ -58,35 +58,41 @@
       </div>
     </header>
 
+  <section class="certificadoControle">
     <div class="container">
-    	<h1>Verificar Informações dos Certificados</h1><br>
+      <div class="col-sm-12">	
+        <div class="row justify-content-center my-3">
+          <h1>Controle de Certificados</h1><br>
+        </div>
 
-      <div class="table-responsive">
+        <div class="table-responsive">
 
-      	<table class="table table-bordered table-hover">
-      		<thead class="thead-dark">
-      			<tr>
-	        		<th>Id</th>
-	        		<th>Nome</th>
-	          	<th>Contato</th>
-			      </tr>
-	      	</thead>
-		    
-		    <tbody class = "table-secondary">
-		    	<?php
-		        	while($stmt->fetch()) {
-		            	echo "<tr>\n";
-		            	echo "<td>".$certificado."</td>\n";
-		            	echo "<td>".$nome."</td>\n";
-		            	echo "<td>".$contato."</td>\n";
-		            	echo "</tr>\n";
-		          	}
-		        ?>  
-		    </tbody>
-    	</table>
-    	</div>
+        	<table class="table table-bordered" id="tabelaCertificado">
+        		<thead class="thead">
+        			<tr>
+  	        		<th>Id</th>
+  	        		<th>Nome</th>
+  	          	<th>Contato</th>
+  			      </tr>
+  	      	</thead>
+  		    
+  		    <tbody class="table-secondary" id="tabelaSecundariaCertificado">
+  		    	<?php
+  		        	while($stmt->fetch()) {
+  		            	echo "<tr>\n";
+  		            	echo "<td>".$certificado."</td>\n";
+  		            	echo "<td>".$nome."</td>\n";
+  		            	echo "<td>".$contato."</td>\n";
+  		            	echo "</tr>\n";
+  		          	}
+  		        ?>  
+  		    </tbody>
+      	</table>
+      	</div>
+      </div>
     </div>
-
+  </section>
+    
     <footer class="footer mt-auto py-4" id="rodape">
       <div class="col-sm-12">
         <span class="text-muted">&copy 2020</span>
