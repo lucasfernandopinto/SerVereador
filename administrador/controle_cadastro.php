@@ -16,10 +16,10 @@
     }
   }
 
-  $sql = "SELECT id, nome, telefone, email FROM usuarios ORDER BY nome";
+  $sql = "SELECT id, nome, telefone, email, acesso FROM usuarios ORDER BY nome";
   $stmt = $con->prepare($sql);
   $stmt->execute();
-  $stmt->bind_result($usuario, $nome, $telefone, $email);
+  $stmt->bind_result($usuario, $nome, $telefone, $email, $acesso);
 ?>
 
 <!DOCTYPE html>
@@ -28,6 +28,8 @@
     <title>Controle de Cadastros</title>
     <meta charset="utf-8">
 
+    <link href="../img/TMTV.jpg" rel="icon">
+    
     <link rel="stylesheet" type="text/css" href="estilo_adm.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -93,6 +95,7 @@
                 <th>Nome</th>
                 <th>Telefone</th>
                 <th>E-mail</th>
+                <th>Acesso</th>
                 <th>Ações</th>
               </tr>
             </thead>
@@ -105,7 +108,8 @@
                   echo "<td>".$nome."</td>\n";
                   echo "<td>".$telefone."</td>\n";
                   echo "<td>".$email."</td>\n";
-                  echo "<td><a class='btn btn-secondary' role='button' href='../usuario/cadastro.php?modo=excluir&id=".$usuario."'><i class='fas fa-trash'></i></a>&nbsp;&nbsp;<a class='btn btn-secondary' role='button' href='alterar_cadastro.php?categoria=".$usuario."'><i class='fas fa-edit'></i></a></td>\n";
+                  echo "<td>".$acesso."</td>\n";
+                  echo "<td><a class='btn btn-secondary' role='button' href='controle_cadastro.php?modo=excluir&id=".$usuario."'><i class='fas fa-trash'></i></a>&nbsp;&nbsp;<a class='btn btn-secondary' role='button' href='alterar_cadastro.php?categoria=".$usuario."'><i class='fas fa-edit'></i></a></td>\n";
                   echo "</tr>\n";
                  }
                ?>  

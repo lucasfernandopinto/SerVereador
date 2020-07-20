@@ -1,27 +1,27 @@
 <?php
   require_once "../conexao/conexao.php";
 
-  if(isset($_GET["id"])) {
-    $usuario = $_GET["id"];
-    $sql = "SELECT nome, telefone, email FROM usuarios WHERE id = $usuario";
+  if(isset($_GET["usuario"])) {
+    $usuario = $_GET["usuario"];
+    $sql = "SELECT nome, telefone, email, senha, acesso FROM usuarios WHERE usuario = $usuario";
     $stmt = $con->prepare($sql);
     $stmt->execute();
-    $stmt->bind_result($nome);
-    $stmt->bind_result($telefone);
-    $stmt->bind_result($email);
+    $stmt->bind_result($nome, $telefone, $email, $senha, $acesso);
     $stmt->fetch();
   }
 
   if(isset($_POST["btnSubmit"])) {
     //print_r($_POST);
-    $categoria = $_POST["id"];
+    $usuario = $_POST["usuario"];
     $nome = $_POST["nome"];
     $telefone = $_POST["telefone"];
     $email = $_POST["email"];
+    $email = $_POST["senha"];
+    $acesso = $_POST["acesso"];
 
-    $sql = "UPDATE usuarios SET nome = '$nome',  telefone = '$telefone',  email = '$email' WHERE id = $usuario";
+    $sql = "UPDATE usuarios SET nome = '$nome',  telefone = '$telefone',  email = '$email', senha = '$senha', acesso = $acesso WHERE usuario = $usuario";
     if(mysqli_query($con, $sql)) {
-      header('Location: ../usuario/cadastro.php');
+      header('Location: cadastrar_usuario.php');
     } else {
       echo "Erro ao registrar dados: ".mysqli_error($con);
     }
@@ -33,6 +33,8 @@
   <head>
     <title>Alteração do Cadastro</title>
     <meta charset="utf-8">
+    
+    <link href="../img/TMTV.jpg" rel="icon">
 
     <link rel="stylesheet" type="text/css" href="estilo_adm.css">
     <link href="../icofont/icofont.min.css" rel="stylesheet">
@@ -107,78 +109,38 @@
               </div>
 
               <div class="form-group col-sm-12">
-                <a href="index_adm.php" class="btn btn-primary">Cancelar </a>
-                <button type="submit" class="btn btn-primary">Alterar</button>
+                <label for="inputAcesso">Acesso</label>
+                <input type="text" name="acesso" id="inputAcesso" class="form-control" maxlength="45" placeholder="Acesso..." required>
+              </div>
+
+              <div class="form-group col-sm-12">
+                <a href="index.php" class="btn btn-primary">Cancelar </a>
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
               </div>
             </div>
           </form>
         </div>
       </div>
 
-      <?php
-        if(isset($_POST['nome']))
-        {
-         $nome = addslashes($_POST['nome']);
-         $telefone = addslashes($_POST['telefone']);
-         $email = addslashes($_POST['email']);
-         $senha = addslashes($_POST['senha']);
-         $confirmarSenha = addslashes($_POST['confSenha']);
-
-         if(!empty($nome) && !empty($telefone) && !empty($email) && !empty($senha) && !empty($confirmarSenha))
-         {
-            $u->conectar("vereador", "localhost", "root", "");
-            if($u->msgErro == "")
-            {
-              if($senha == $confirmarSenha)
-              {
-                if($u->cadastrar($nome, $telefone, $email, $senha))
-                {
-                  ?>
-                    <div id="msg-sucesso">
-                      Cadastrado com sucesso! Acesse para entrar!
-                    </div>
-                  <?php
+      <script>
+          (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+              var forms = document.getElementsByClassName('needs-validation');
+              var validation = Array.prototype.filter.call(forms, function(form) {
+                form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                  event.preventDefault();
+                  event.stopPropagation();
                 }
-                else
-                {
-                  ?>
-                    <div id="msg-erro">
-                      Email já cadastrado;
-                    </div>
-                  <?php
-                }
-              }
-              else
-              {
-                ?>
-                  <div id="msg-erro">
-                    Senha e Confirmação não correspondem!
-                  </div>
-                <?php
-              }
-            }
-            else
-            {
-              ?>
-                <div id="msg-erro">
-                  <?php echo "Erro: ".$u->msgErro ?>
-                </div> 
-              <?php
-            }
-         }
-         else
-         {
-            ?>
-              <div id="msg-erro">
-                Preencha todos os campos!
-              </div>
-            <?php
-         }
-        }
-
-      ?>
+                form.classList.add('was-validated');
+              }, false);
+            });
+          }, false);
+        })();
+      </script>
     </div>
-    
+
     <footer class="footer mt-auto py-4" id="rodape">
       <div class="col-sm-12">
         <span class="text-muted">&copy 2020</span>

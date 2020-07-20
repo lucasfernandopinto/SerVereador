@@ -13,7 +13,6 @@
 			} catch(PDOException $e) {
 				$msgErro = $e->getMessage();
 			}
-
 		}
 
 		public function cadastrar($nome, $telefone, $email, $senha)
