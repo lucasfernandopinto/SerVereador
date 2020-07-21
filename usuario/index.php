@@ -68,7 +68,7 @@
     <div class="hero-container">
       <h1>Ser Vereador</h1>
       <h2>Seja bem-vindo ao melhor curso online para você que é um pré-candidato a vereador. Aqui serão ensinadas todas as competências e habilidades para que você obtenha sucesso nesta campanha.</h2>
-      <a href="compra.php" class="btn-get-started scrollto"><i class="icofont-whatsapp">Comprar por R$99,00</i></a>
+      <a href="compra.php" class="btn-get-started scrollto"><i class="icofont-whatsapp">Comprar por R$ 55,00</i></a>
     </div>
   </section>
 
@@ -89,7 +89,7 @@
                   <div class="icon"><i class="bx bxl-dribbble"></i></div>
                   <img src="../img/cadeado.png" width="64px" height="64px">
                   <h4>Acesso imediato</h4>
-                  <p>Compre o curso agora por R$ 00,00 e você vai possuir acesso liberado imediatamente a todas as aulas do programa "Ser Vereador".</p>
+                  <p>Compre o curso agora por R$ 55,00 e você vai possuir acesso liberado imediatamente a todas as aulas do programa "Ser Vereador".</p>
                 </div>
               </div>
 
@@ -123,7 +123,7 @@
       <div class="col-sm-12 my-5">  
         <div class="row justify-content-center">
           <h3>O que é ser um <strong>vereador</strong>?</h3>
-          <p>O curso Ser Vereador possui x horas de conteúdo dividido em 5 aulas, com módulos que você pode ver e rever a qualquer momento.</p>
+          <p>O curso Ser Vereador possui 1 hora e 30 minuntos de conteúdo dividido em 5 aulas, com módulos que você pode ver e rever a qualquer momento.</p>
         </div>
         <div class="row">
           <div class="col-lg-4">
@@ -194,14 +194,13 @@
                       <div class="email">
                         <i class="icofont-envelope"></i>
                         <h4>Email:</h4>
-                        <p>*************</p>
+                        <p><a href="mailto:contact@example.com"><b>contato@cursoservereador.com.br</b></a></p>
                       </div>
 
                       <div class="phone">
                         <i class="icofont-phone"></i>
                         <h4>Contatos</h4>
-                        <p>Renato: (47) 99784-1826</p>
-                        <p>Chico: (46) 9998-1226</p>
+                        <p>Renato: (45) 99812-9576</p>
                       </div>
                     </div>
                   </div>

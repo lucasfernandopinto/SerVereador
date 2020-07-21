@@ -50,7 +50,7 @@
       </div>
 
       <div class="row justify-content-center my-4">  
-        <p><center>O programa Ser Vereador custa apenas R$99,00 e não possui mensalidade. Você só paga uma vez e obtém acesso ao curso a qualquer momento.</center></p>
+        <p><center>O programa Ser Vereador custa apenas R$55,00 e não possui mensalidade. Você só paga uma vez e obtém acesso ao curso a qualquer momento.</center></p>
       </div>  
 
           <div class="col-sm-12" id="bordaCompra" >
@@ -61,8 +61,8 @@
                     <img src="../img/banco.png" witdh="70px" height="70px">
                   </div>
                   <h5> CONTA POUPANÇA</h5>
-                  <p>1º TITULAR: Francisco</p>
-                  <p>2º TITULAR: Renato</p>
+                  <p>1º TITULAR: Valderes Francisco Mafioleti</p>
+                  <p>2º TITULAR: Renato Colla</p>
                   <p>BANCO: CAIXA ECONÔMICA </p>
                   <p>AGÊNCIA: 3676</p>
                   <p>OPERAÇÃO: 013 - CONTA POUPANÇA</p>
@@ -113,7 +113,7 @@
                   </div>
                 </div>
 
-                <h3><center>Aproveite esta oferta por apenas <strong> R$99,00.</strong></center></h3>
+                <h3><center>Aproveite esta oferta por apenas <strong> R$ 55,00.</strong></center></h3>
 
               </div>
             </div>        
