@@ -10,7 +10,8 @@ create table usuarios (
     nome varchar(30) not null,
     telefone varchar(30) not null,
     email varchar(40) not null,
-    senha varchar(32) not null
+    senha varchar(32) not null,
+    acesso varchar(50)
 );
 
 CRIAR A TABELA MENSAGEM/CONTATO:

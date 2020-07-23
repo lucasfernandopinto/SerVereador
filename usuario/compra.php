@@ -46,7 +46,7 @@
   <section id="compra" class="compra"> 
     <div class="container">     
       <div class="row justify-content-center my-3">   
-        <h3><center>Deposite o valor do curso na conta abaixo, envie foto do seu comprovante via <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5545998129576.">whats</a> ou e-mail e faça o seu cadastro, logo após, espere o código de acesso, que será enviado em seu e-mail ou via whatsapp.</center></h3>
+        <h3><center>Deposite o valor do curso na conta abaixo, envie foto do seu comprovante via <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5545998129576.">whats</a> ou <a href="mailto:contato@cursoservereador.com.br"><b>e-mail</b></a> e faça o seu cadastro, logo após, espere o código de acesso, que será enviado em seu e-mail ou via whatsapp.</center></h3>
       </div>
 
       <div class="row justify-content-center my-4">  
@@ -64,7 +64,7 @@
                   <h5> CONTA POUPANÇA</h5>
                   <p>1º TITULAR: Valderes Francisco Mafioleti</p>
                   <p>2º TITULAR: Renato Colla</p>
-                  <p>BANCO: CAIXA ECONÔMICA </p>
+                  <p>BANCO: CAIXA ECONÔMICA FEDERAL</p>
                   <p>AGÊNCIA: 3676</p>
                   <p>OPERAÇÃO: 013 - CONTA POUPANÇA</p>
                   <p>Nº CONTA: 7584-8</p>

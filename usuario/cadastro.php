@@ -121,7 +121,7 @@
                 {
                   ?>
                     <div id="msg-sucesso">
-                      Cadastrado com sucesso! Acesse para entrar!
+                      Cadastrado com sucesso! AAguarde no máximo 24 horas e enviaremos seu código de acesso através do contato cadastrado!
                     </div>
                   <?php
                 }
