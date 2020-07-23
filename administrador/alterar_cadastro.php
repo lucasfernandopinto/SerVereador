@@ -1,27 +1,30 @@
 <?php
   require_once "../conexao/conexao.php";
 
-  if(isset($_GET["usuario"])) {
-    $usuario = $_GET["usuario"];
-    $sql = "SELECT nome, telefone, email, senha, acesso FROM usuarios WHERE usuario = $usuario";
+  $msg_sucesso = "";
+  $msg_erro = "";
+
+  if(isset($_GET["id"])) {
+    $usuario = $_GET["id"];
+    $sql = "SELECT nome, telefone, email, acesso FROM usuarios WHERE id = $usuario";
     $stmt = $con->prepare($sql);
     $stmt->execute();
-    $stmt->bind_result($nome, $telefone, $email, $senha, $acesso);
+    $stmt->bind_result($usuario, $nome, $telefone, $email, $acesso);
     $stmt->fetch();
   }
 
   if(isset($_POST["btnSubmit"])) {
     //print_r($_POST);
-    $usuario = $_POST["usuario"];
+    $usuario = $_POST["id"];
     $nome = $_POST["nome"];
     $telefone = $_POST["telefone"];
     $email = $_POST["email"];
-    $email = $_POST["senha"];
     $acesso = $_POST["acesso"];
 
-    $sql = "UPDATE usuarios SET nome = '$nome',  telefone = '$telefone',  email = '$email', senha = '$senha', acesso = $acesso WHERE usuario = $usuario";
+    $sql = "UPDATE usuarios SET nome = '$nome', telefone = '$telefone', email = '$email', acesso = '$acesso' WHERE id = $usuario";
+    //echo $sql;
     if(mysqli_query($con, $sql)) {
-      header('Location: cadastrar_usuario.php');
+      header('Location: controle_cadastro.php');
     } else {
       echo "Erro ao registrar dados: ".mysqli_error($con);
     }
@@ -34,7 +37,7 @@
     <title>Alteração do Cadastro</title>
     <meta charset="utf-8">
     
-    <link href="../img/TMTV.jpg" rel="icon">
+    <link href="../img/logo.jpg" rel="icon">
 
     <link rel="stylesheet" type="text/css" href="estilo_adm.css">
     <link href="../icofont/icofont.min.css" rel="stylesheet">
@@ -63,6 +66,9 @@
             <li class="nav-item">
               <a href="verificar_contato.php">Contato</a>
             </li>
+            <li class="nav-item">
+              <a href="verificar_reembolso.php">Reembolso</a>
+            </li>
             <li class="nav-item active">
               <a href="controle_cadastro.php">Cadastro</a>
             </li>
@@ -78,15 +84,17 @@
       <div class="row justify-content-center my-3">  
         <h1><i class="icofont-edit"></i> Alterar os Dados do Cadastro</h1><br>
       </div>
+      <form action="<?php echo $_SERVER['PHP_SELF']; ?>" class="needs-validation" novalidate method="POST">
+        <input type="hidden" name="id" value="<?php echo $_GET['id']; ?>">
 
-      <div class="row justify-content-center mb-5">
-        <div class="col-sm-8">
-          <form method="POST">
-            <div class="form-row">
-              <div class="form-group col-sm-12">
-                <label for="inputNome">Nome</label>
-                <input type="text" name="nome" class="form-control" id="inputNome" maxlength="30" placeholder="Nome..." required>
-              </div>
+        <div class="row justify-content-center mb-5">
+          <div class="col-sm-8">
+            <form method="POST">
+              <div class="form-row">
+                <div class="form-group col-sm-12">
+                  <label for="inputNome">Nome</label>
+                  <input type="text" name="nome" class="form-control" value="<?php echo  $nome; ?>" id="inputNome" maxlength="30" placeholder="Nome..." required>
+                </div>
 
               <div class="form-group col-sm-12">
                 <label for="inputEmail">Telefone</label>
@@ -114,7 +122,7 @@
               </div>
 
               <div class="form-group col-sm-12">
-                <a href="index.php" class="btn btn-primary">Cancelar </a>
+                <a href="controle_cadastro.php" class="btn btn-primary">Cancelar </a>
                 <button type="submit" class="btn btn-primary">Cadastrar</button>
               </div>
             </div>

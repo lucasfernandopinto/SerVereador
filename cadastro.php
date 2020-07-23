@@ -4,14 +4,13 @@
 ?>
 
 <!doctype html>
-<html lang="en">
+<html lang="pt">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="../img/logo.jpg" rel="icon">
-
+    <link href="../img/TMTV.jpg" rel="icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -47,7 +46,7 @@
       </div>
     </header>
 
-        <div class="container" id="bordaCadastro">
+    <div class="container" id="bordaCadastro">
       <div class="row">
         <div class="col-sm-12 text-center my-3">
           <h1>Cadastro</h1>
@@ -68,32 +67,32 @@
           <form method="POST">
             <div class="form-row">
               <div class="form-group col-sm-12">
-                <label for="inputNome">Nome</label>
+                <label for="inputNome"><b>Nome:</b></label>
                 <input type="text" name="nome" class="form-control" id="inputNome" maxlength="30" placeholder="Nome..." required>
               </div>
 
               <div class="form-group col-sm-12">
-                <label for="inputEmail">Telefone</label>
+                <label for="inputEmail"><b>Telefone:</b></label>
                 <input type="text" name="telefone" class="form-control" id="inputEmail" maxlength="30" placeholder="Telefone..." required>
               </div>
 
               <div class="form-group col-sm-12">
-                <label for="inputEmail">E-mail</label>
+                <label for="inputEmail"><b>E-mail:</b></label>
                 <input type="email" name="email" class="form-control" id="inputEmail" maxlength="40" placeholder="exemplo@gmail.com" required>
               </div>
 
               <div class="form-group col-sm-12">
-                <label for="inputPassword">Senha</label>
+                <label for="inputPassword"><b>Senha:</b></label>
                 <input type="password" name="senha" id="inputPassword" class="form-control" maxlength="15" placeholder="Senha..." required>
               </div>
 
               <div class="form-group col-sm-12">
-                <label for="inputPassword">Confirmar Senha</label>
+                <label for="inputPassword"><b>Confirmar Senha:</b></label>
                 <input type="password" name="confSenha" id="inputPassword" class="form-control" maxlength="15" placeholder="Confirmar Senha..." required>
               </div>
 
               <div class="form-group col-sm-12">
-                <a href="index.php" class="btn btn-primary">Cancelar </a>
+                <a href="index.php" class="btn btn-primary">Cancelar</a>
                 <button type="submit" class="btn btn-primary">Cadastrar</button>
               </div>
             </div>
@@ -101,7 +100,7 @@
         </div>
       </div>
 
-<?php
+      <?php
         if(isset($_POST['nome']))
         {
          $nome = addslashes($_POST['nome']);

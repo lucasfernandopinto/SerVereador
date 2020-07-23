@@ -22,7 +22,7 @@
 
     <meta charset="utf-8">
     
-    <link href="../img/TMTV.jpg" rel="icon">
+    <link href="../img/logo.jpg" rel="icon">
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -48,6 +48,9 @@
             </li>
             <li class="nav-item">
               <a href="verificar_contato.php">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a href="verificar_reembolso.php">Reembolso</a>
             </li>
             <li class="nav-item">
               <a href="controle_cadastro.php">Cadastro</a>

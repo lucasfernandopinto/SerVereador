@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="../img/TMTV.jpg" rel="icon">
+    <link href="../img/logo.jpg" rel="icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -67,24 +67,24 @@
           <form method="POST">
             <div class="form-row">
               <div class="form-group col-sm-12">
-                <label for="inputEmail">E-mail</label>
+                <label for="inputEmail"><b>E-mail:</b></label>
                 <input type="text" name="email" class="form-control" id="inputEmail" placeholder="exemplo@gmail.com" required>
               </div>
 
               <div class="form-group col-sm-12">
-                <label for="inputPassword">Senha</label>
+                <label for="inputPassword"><b>Senha:</b></label>
                 <input type="password" name="senha" id="inputPassword" class="form-control" placeholder="Senha..." required>
               </div>
 
               <div class="form-group col-sm-12">
-                <label for="inputAcesso">Acesso</label>
+                <label for="inputAcesso"><b>Acesso:</b></label>
                 <input type="text" name="acesso" id="inputAcesso" class="form-control" placeholder="Acesso..." required>
               </div>
 
               <div class="form-group col-sm-12">
-                <a href="index.php" class="btn btn-primary">Cancelar </a>
+                <a href="index.php" class="btn btn-primary">Cancelar</a>
                 <button type="submit" class="btn btn-primary">Entrar</button>
-                <a href="cadastro.php" class="btn btn-primary">Cadastre-se </a>
+                <a href="cadastro.php" class="btn btn-primary">Cadastre-se</a>
               </div>
             </div>
           </form>

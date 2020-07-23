@@ -7,10 +7,10 @@
     mysqli_query($con, "SET character_set_client=utf8");
     mysqli_query($con, "SET character_set_results=utf8");
 
-    $sql = "SELECT * FROM mensagem";
+    $sql = "SELECT * FROM reembolso";
     $stmt = $con->prepare($sql);
     $stmt->execute();
-    $stmt->bind_result($comunicacao, $nome, $contato, $assunto, $mensagem);
+    $stmt->bind_result($reembolso, $nome, $contato, $motivo);
 ?>
 
 <!DOCTYPE html>
@@ -46,10 +46,10 @@
             <li class="nav-item">
               <a href="index_adm.php ">Início</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a href="verificar_contato.php">Contato</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a href="verificar_reembolso.php">Reembolso</a>
             </li>
             <li class="nav-item">
@@ -67,7 +67,7 @@
     <div class="container">
       <div class="col-sm-12">	
         <div class="row justify-content-center my-3"> 
-          <h1>Verificar Mensagens</h1><br>
+          <h1>Verificar Pedidos de Reembolso</h1><br>
         </div>
 
         <div class="table-responsive">
@@ -78,8 +78,7 @@
   	        		<th>Id</th>
   	        		<th>Nome</th>
   	          	<th>Contato</th>
-  			        <th>Assunto</th>
-  			        <th>Mensagem</th>
+  			        <th>Motivo</th>
   	        	</tr>
   	      	</thead>
   		    
@@ -87,11 +86,10 @@
   		    	<?php
   		        	while($stmt->fetch()) {
   		            	echo "<tr>\n";
-  		            	echo "<td>".$comunicacao."</td>\n";
+  		            	echo "<td>".$reembolso."</td>\n";
   		            	echo "<td>".$nome."</td>\n";
   		            	echo "<td>".$contato."</td>\n";
-  		            	echo "<td>".$assunto."</td>\n";
-  		            	echo "<td>".$mensagem."</td>\n";
+  		            	echo "<td>".$motivo."</td>\n";
   		            	echo "</tr>\n";
   		          	}
   		        ?>  

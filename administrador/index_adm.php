@@ -1,23 +1,3 @@
-<?php
-  require_once "../conexao/conexao.php";
- 
-  if(isset($_POST)) {
-    if(isset($_POST["btnSubmit"])) {
-      $comunicacao = $_POST["comunicacao"];
-      $nome = $_POST["nome"];
-      $contato = $_POST["contato"];
-      $assunto = $_POST["assunto"];
-      $mensagem = $_POST["mensagem"];
-
-      $sql = "INSERT INTO mensagem (nome, contato, assunto, mensagem) VALUES ('$nome', '$contato',  '$assunto', '$mensagem')";
-
-      $res = mysqli_query($con, $sql) or die("Erro: ".  mysqli_error($con));
-
-      $id = mysqli_insert_id($con);
-      }
-  }
-?>
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -25,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="../img/TMTV.jpg" rel="icon">
+    <link href="../img/logo.jpg" rel="icon">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -53,6 +33,9 @@
               <a href="verificar_contato.php">Contato</a>
             </li>
             <li class="nav-item">
+              <a href="verificar_reembolso.php">Reembolso</a>
+            </li>
+            <li class="nav-item">
               <a href="controle_cadastro.php">Cadastro</a>
             </li>
             <li class="nav-item">
@@ -67,14 +50,17 @@
     <div class="container">  
       <div clas="col-sm-12">
         <div class="row my-3"> 
-          <div class="col-sm-4">  
-            <a href="verificar_certificado.php" class="btn btn-primary"><p>CONTROLE CERTIFICADO</p></a>
+          <div class="col-sm-3">  
+            <a href="verificar_contato.php" class="btn btn-primary"><p>VERIFICAR CONTATOS</p></a>
           </div>
-          <div class="col-sm-4">  
+          <div class="col-sm-3">  
+            <a href="verificar_reembolso.php" class="btn btn-primary"><p>VERIFICAR REEMBOLSO</p></a>
+          </div>
+          <div class="col-sm-3">  
             <a href="controle_cadastro.php" class="btn btn-primary"><p>CONTROLE CADASTRO</p></a>
           </div>
-          <div class="col-sm-4">  
-            <a href="verificar_contato.php" class="btn btn-primary"><p>VERIFICAR CONTATOS</p></a>
+          <div class="col-sm-3">  
+            <a href="verificar_certificado.php" class="btn btn-primary"><p>CONTROLE CERTIFICADO</p></a>
           </div>
         </div>
       </div>
@@ -94,7 +80,3 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 </html>
-
-<?php
-  require_once "../conexao/fecharconexao.php";
-?>

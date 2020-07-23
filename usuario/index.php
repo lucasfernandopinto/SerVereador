@@ -25,7 +25,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <link href="../img/TMTV.jpg" rel="icon">
+    <link href="../img/logo.jpg" rel="icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
@@ -188,19 +188,19 @@
                       <div class="address">
                         <i class="icofont-google-map"></i>
                         <h4>Localização:</h4>
-                        <p align="justify">Quedas do Iguaçu - Paraná - Brasil</p>
+                        <p align="justify"><b>Quedas do Iguaçu - Paraná - Brasil</b></p>
                       </div>
 
                       <div class="email">
                         <i class="icofont-envelope"></i>
                         <h4>Email:</h4>
-                        <p><a href="mailto:contact@example.com"><b>contato@cursoservereador.com.br</b></a></p>
+                        <p><a href="mailto:contato@cursoservereador.com.br"><b>contato@cursoservereador.com.br</b></a></p>
                       </div>
 
                       <div class="phone">
                         <i class="icofont-phone"></i>
                         <h4>Contatos</h4>
-                        <p>Renato: (45) 99812-9576</p>
+                        <p><a href="http://api.whatsapp.com/send?1=pt_BR&phone=5545998129576."><b>+55 (45) 99812-9576</b></a></p>
                       </div>
                     </div>
                   </div>
@@ -214,7 +214,7 @@
                         <div class="row">
                           <div class="col-md-6">
                             <div class="form-group">
-                              <label for="nome">Nome:</label>
+                              <label for="nome"><b>Nome:</b></label>
                               <input type="text" class="form-control" id="nome" maxlength="80" name="nome" placeholder="Seu nome" required>
                               <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
                             </div>
@@ -222,7 +222,7 @@
 
                           <div class="col-md-6">
                             <div class="form-group">
-                              <label for="contato">Contato:</label>
+                              <label for="contato"><b>Contato:</b></label>
                               <input type="text" class="form-control" id="contato" maxlength="80" placeholder="Seu contato" name="contato" required>
                               <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
                             </div>
@@ -230,13 +230,13 @@
                         </div>
 
                         <div class="form-group">
-                          <label for="assunto">Assunto:</label>
+                          <label for="assunto"><b>Assunto:</b></label>
                           <input type="text" class="form-control" id="assunto" maxlength="50" name="assunto" placeholder="Informe o Assunto" required>
                           <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
                         </div>
                         
                         <div class="form-group">
-                          <label for="mensagem">Mensagem:</label>
+                          <label for="mensagem"><b>Mensagem:</b></label>
                           <textarea type="text" class="form-control" id="mensagem" maxlength="500" name="mensagem" placeholder="Informe a Mensagem" required></textarea>
                           <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
                         </div>

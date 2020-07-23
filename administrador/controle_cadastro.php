@@ -28,7 +28,7 @@
     <title>Controle de Cadastros</title>
     <meta charset="utf-8">
 
-    <link href="../img/TMTV.jpg" rel="icon">
+    <link href="../img/logo.jpg" rel="icon">
     
     <link rel="stylesheet" type="text/css" href="estilo_adm.css">
 
@@ -55,6 +55,9 @@
             </li>
             <li class="nav-item">
               <a href="verificar_contato.php">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a href="verificar_reembolso.php">Reembolso</a>
             </li>
             <li class="nav-item active">
               <a href="controle_cadastro.php">Cadastro</a>
@@ -120,11 +123,11 @@
     </div>
   </section>
     
-    <footer class="footer mt-auto py-4" id="rodape">
-      <div class="col-sm-12">
-        <span class="text-muted">&copy 2020</span>
-      </div>
-    </footer>
+  <footer class="footer mt-auto py-4" id="rodape">
+    <div class="col-sm-12">
+      <span class="text-muted">&copy 2020</span>
+    </div>
+  </footer>
   </body>
 </html>
 
