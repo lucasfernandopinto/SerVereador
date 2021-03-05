@@ -1,3 +1,12 @@
+<?php
+  session_start();
+  if(!isset($_SESSION['id']))
+  {
+    header('location: login_adm.php');
+    exit;
+  }
+?>
+
 <!doctype html>
 <html lang="en">
   <head>

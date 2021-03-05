@@ -12,6 +12,9 @@
       $res = mysqli_query($con, $sql) or die("Erro: ".  mysqli_error($con));
 
       $id = mysqli_insert_id($con);
+
+      header("location: certificado.php");
+      exit;
       }
   }
 ?>
@@ -111,6 +114,16 @@
                         echo "<script> alert('Formulário Foi enviado pelo método POST') </script>";
                       }
                     ?>
+
+                    <script type="text/javascript" language="javascript">
+                      function msg(){
+                        if(document.getElementById("nome").value != ""){
+                          if(document.getElementById("contato").value != ""){
+                              alert('Certificado Solicitado com Sucesso! Em no Máximo 24 horas Enviaremos Através do Contato Cadastrado');
+                          }
+                        }
+                      }
+                    </script>
 
                     <script>  
                       (function() {

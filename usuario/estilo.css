@@ -76,8 +76,18 @@
 }
 
 #botaoCertificado{
-  background-color: #ff0000;
-  border-color: #ff0000;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #ff0000;
+  color: #fff;
+  background: #ff0000;
 }
 
 #bordaLogin{
@@ -636,4 +646,18 @@ hr:after{
 
 #rodape{
   background-color: #ff0000;
+}
+
+#rodape span{
+  color:#fff;
+}
+
+#rodape #reembolso {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  color: #fff;
+  float: right;
 }

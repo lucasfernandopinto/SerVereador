@@ -5,15 +5,19 @@
     if(isset($_POST["btnSubmit"])) {
       $comunicacao = $_POST["comunicacao"];
       $nome = $_POST["nome"];
-      $contato = $_POST["contato"];
+      $telefone = $_POST["telefone"];
+      $email = $_POST["email"];
       $assunto = $_POST["assunto"];
       $mensagem = $_POST["mensagem"];
 
-      $sql = "INSERT INTO mensagem (nome, contato, assunto, mensagem) VALUES ('$nome', '$contato',  '$assunto', '$mensagem')";
+      $sql = "INSERT INTO mensagem (nome, telefone, email, assunto, mensagem) VALUES ('$nome', '$telefone', '$email', '$assunto', '$mensagem')";
 
       $res = mysqli_query($con, $sql) or die("Erro: ".  mysqli_error($con));
 
       $id = mysqli_insert_id($con);
+      
+      header("location: index.php");
+      exit;
       }
   }
 ?>
@@ -67,8 +71,8 @@
   <section id="hero">
     <div class="hero-container">
       <h1>Ser Vereador</h1>
-      <h2>Seja bem-vindo ao melhor curso online para você que é um pré-candidato a vereador. Aqui serão ensinadas todas as competências e habilidades para que você obtenha sucesso nesta campanha.</h2>
-      <a href="compra.php" class="btn-get-started scrollto"><i class="icofont-whatsapp">Comprar por R$ 55,00</i></a>
+      <h2>Seja bem-vindo ao melhor curso online para você que é pré-candidato ao cargo de vereador. Aqui você será orientado sobre todas as competências e habilidades necessárias para obter sucesso nesta campanha.</h2>
+      <a href="compra.php" class="btn-get-started scrollto"><i>Comprar por R$ 55,00</i></a>
     </div>
   </section>
 
@@ -77,9 +81,9 @@
         <div class="col-sm-12">
 
           <div class="row justify-content-center my-5">
-            <p>Vídeo explicativo e introdutório sobre o programa <span>Ser Vereador</span>.</p>
-            <video width="720" height="480" controls="controls" poster="../img/video_index_fundo.jpg" id="video">
-              <source src="../videos/CHAMADA.mp4" type="video/mp4">
+            <p>Vídeo explicativo sobre o Programa <span>Ser Vereador</span>.</p>
+            <video width="720" height="480" controls="controls" poster="../img/fundo_abertura.jpg" id="video">
+              <source src="../videos/INICIAL.mp4" type="video/mp4">
             </video>
           </div>
 
@@ -89,7 +93,7 @@
                   <div class="icon"><i class="bx bxl-dribbble"></i></div>
                   <img src="../img/cadeado.png" width="64px" height="64px">
                   <h4>Acesso imediato</h4>
-                  <p>Compre o curso agora por R$ 55,00 e você vai possuir acesso liberado imediatamente a todas as aulas do programa "Ser Vereador".</p>
+                  <p>Adquira o curso agora por apenas <span>R$ 55,00 (cinquenta e cinco reais)</span> e você terá acesso a todas as aulas do Programa Ser Vereador.</p>
                 </div>
               </div>
 
@@ -98,7 +102,7 @@
                   <div class="icon"><i class="bx bx-file"></i></div>
                   <img src="../img/brasil.png" width="64px" height="64px">
                   <h4>Acesso ao Brasil inteiro</h4>
-                  <p>O curso é totalmente online e garantimos acesso em todo o Brasil, sendo necessário uma conexão com a internet.</p>
+                  <p>Curso totalmente online e com acesso garantido em todo o Brasil, sendo necessário uma conexão com a internet.</p>
                 </div>
               </div>
 
@@ -107,42 +111,40 @@
                   <div class="icon"><i class="bx bx-tachometer"></i></div>
                   <img src="../img/livro.png" width="64px" height="64px">
                   <h4>O melhor conteúdo</h4>
-                  <p>Garantimos que todos que comprarem vão obter todas as informações, de forma clara e objetiva, necessárias para um pré-candidato à vereador.</p>
+                  <p>O Programa Ser Vereador oferece todas as informações necessárias para uma pré-candidatura de sucesso ao cargo de vereador.</p>
                 </div>
               </div>
-            </div>
-            
           </div>
         </div>
       </section>
-
+<br><br>
 <hr/>
 
   <section id="aux" class="aux">
     <div class="container">
       <div class="col-sm-12 my-5">  
         <div class="row justify-content-center">
-          <h3>O que é ser um <strong>vereador</strong>?</h3>
-          <p>O curso Ser Vereador possui 1 hora e 30 minuntos de conteúdo dividido em 5 aulas, com módulos que você pode ver e rever a qualquer momento.</p>
+          <h3>O que o <strong>Programa Ser Vereador</strong> oferece?</h3>
+          <p><center>O Programa Ser Vereador é composto por 1 hora e 30 minutos de conteúdo dividido em 6 aulas, com orientações importantíssimas sobre o desenvolvimento da sua campanha, em módulos que você pode ver e rever a qualquer momento.</center></p>
         </div>
         <div class="row">
           <div class="col-lg-4">
             <div class="box">
-              <span>Introdução.</span>
-              <li>Mensagens aos candidatos e apresentação do trabalho</li>
+              <span>INTRODUÇÃO</span>
+              <li style="text-align: justify;">Mensagens aos pré-candidatos e apresentação do trabalho</li>
             </div>
           </div>
           
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box">
-              <span>Aula 01.</span>
+              <span>AULA 01</span>
               <li>Questionamentos que orientam o comportamento do candidato</li>
             </div>
           </div>
           
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box">
-              <span>Aula 02.</span>
+              <span>AULA 02</span>
               <li>Diretrizes para a realização de uma boa campanha</li>
             </div>
           </div>
@@ -150,7 +152,7 @@
             <div class="col-lg-4 mt-4 mt-lg-0">
 <br><br>
               <div class="box">
-                <span>Aula 03.</span>
+                <span>AULA 03</span>
                 <li>Dicas motivacionais para o desenvolvimento do trabalho</li>
               </div>
             </div>
@@ -158,15 +160,15 @@
             <div class="col-lg-4 mt-4 mt-lg-0">
 <br><br>
               <div class="box">
-                <span>Aula 04.</span>
-                <li>Noções de oratória para melhorar a comunicação do candidato</li>
+                <span>AULA 04</span>
+                <li>Noções de Oratória para melhorar a comunicação do candidato</li>
               </div>
             </div>
 
             <div class="col-lg-4 mt-4 mt-lg-0">
 <br><br>
               <div class="box">
-                <span>Aula 05.</span>
+                <span>AULA 05</span>
                 <li>Orientações finais ao candidato</li>
                 <br>
               </div>
@@ -178,55 +180,61 @@
   </section>
 <hr/>
         <section id="contact" class="contact">
-          <div class="container">
+<div class="container">
             <div class="col-sm-12">
               <div class="row justify-content-center mt-5">
                 <div class="col-4">                  
                   <h3><strong><center>Localização & Contatos</center></strong></h3>   
-                  <p><center>Para qualquer dúvida, entre em contato:</center></p>           
+                  <p><center>Em caso de dúvidas, entre em contato:</center></p>           
                     <div class="info" id="contatoPosition">
                       <div class="address">
                         <i class="icofont-google-map"></i>
                         <h4>Localização:</h4>
-                        <p align="justify"><b>Quedas do Iguaçu - Paraná - Brasil</b></p>
+                        <p align="justify" id="aux" class="aux"><strong>Cascavel - Paraná - Brasil</strong></p>
                       </div>
 
-                      <div class="email">
-                        <i class="icofont-envelope"></i>
+                      <div class="email" class="aux">
+                        <i class="icofont-envelope" ></i>
                         <h4>Email:</h4>
-                        <p><a href="mailto:contato@cursoservereador.com.br"><b>contato@cursoservereador.com.br</b></a></p>
+                        <p id="aux" target="_blank" class="aux"><a style="color: #ff0000" href="mailto:contato@cursoservereador.com.br"><strong>contato@cursoservereador.com.br</strong></a></p>
                       </div>
 
                       <div class="phone">
-                        <i class="icofont-phone"></i>
-                        <h4>Contatos</h4>
-                        <p><a href="http://api.whatsapp.com/send?1=pt_BR&phone=5545998129576."><b>+55 (45) 99812-9576</b></a></p>
+                        <i class="icofont-whatsapp"></i>
+                        <h4>WhatsApp</h4>
+                        <p id="aux" class="aux"><a style="color: #ff0000" href="http://api.whatsapp.com/send?1=pt_BR&phone=5545998129576."><strong>+55 (45) 99812-9576</strong></a></p>
                       </div>
                     </div>
-                  </div>
+                  </div>          
 
                 <div class="col-lg-8 mt-5 mt-lg-0">
                   <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
                   <input type="hidden" name="comunicacao" value="<?php echo $_GET['comunicacao']; ?>">
                     <div class="container">
-                        <h3><strong><center>Seja um Colaborador</center></strong></h3>
+                        <h3><strong><center>Entre em Contato</center></strong></h3>
                         <p><center>Deixe sua mensagem abaixo:</center></p>
                         <div class="row">
                           <div class="col-md-6">
                             <div class="form-group">
                               <label for="nome"><b>Nome:</b></label>
-                              <input type="text" class="form-control" id="nome" maxlength="80" name="nome" placeholder="Seu nome" required>
+                              <input type="text" class="form-control" id="nome" maxlength="80" name="nome" placeholder="Informe seu nome" required>
                               <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
                             </div>
                           </div>
 
                           <div class="col-md-6">
                             <div class="form-group">
-                              <label for="contato"><b>Contato:</b></label>
-                              <input type="text" class="form-control" id="contato" maxlength="80" placeholder="Seu contato" name="contato" required>
+                              <label for="telefone"><b>WhatsApp:</b></label>
+                              <input type="text" class="form-control" id="telefone" maxlength="80" placeholder="Informe seu WhatsApp" name="telefone" required>
                               <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
                             </div>
                           </div>
+                        </div>
+                        
+                        <div class="form-group">
+                          <label for="email"><b>E-mail:</b></label>
+                          <input type="email" class="form-control" id="email" maxlength="50" name="email" placeholder="Informe seu E-mail" required>
+                          <div class="invalid-feedback">Este campo é de preenchimento obrigatório.</div>
                         </div>
 
                         <div class="form-group">
@@ -254,6 +262,22 @@
                       }
                     ?>
 
+                    <script type="text/javascript" language="javascript">
+                      function msg (){
+                        if(document.getElementById("nome").value != ""){
+                          if(document.getElementById("telefone").value != ""){
+                            if(document.getElementById("email").value != ""){
+                              if(document.getElementById("assunto").value != ""){
+                                if(document.getElementById("mensagem").value != ""){
+                                  alert('Enviado com Sucesso!');
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    </script>
+
                     <script>  
                       (function() {
                         'use strict';
@@ -280,7 +304,8 @@
 
       <footer class="footer mt-auto py-4" id="rodape">
         <div class="col-sm-12">
-          <span class="text-muted">&copy 2020</span>
+          <span>&copy 2020</span>
+          <a href="reembolso.php" id="reembolso">Direito a Reembolso</a>
         </div>
       </footer>
 

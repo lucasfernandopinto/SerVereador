@@ -49,7 +49,7 @@
             <li class="nav-item">
               <a href="certificado.php">Peça seu Certificado</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a href="reembolso.php">Peça seu Reembolso</a>
             </li>
             <li class="nav-item">
@@ -69,7 +69,8 @@
                 <div class="row justify-content-center mt-5">
                   <div class="col-lg-8 mt-5 mt-lg-0">
                     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
-                    <input type="hidden" name="reembolso" value="<?php echo $_GET['reembolso']; ?>">
+                      <input type="hidden" name="reembolso" value="<?php echo $_GET['reembolso']; ?>">
+                
                       <div class="container">
                         <h3><strong><center>Peça o Reembolso do Valor Investido em até <b>7</b> dias</center></strong></h3>
                         <p><center>Preencha os campos abaixo para pedir seu reembolso:</center></p>
@@ -94,7 +95,7 @@
                         </div>
                           
                          <div class="form-group">
-                          <label for="mensagem"><b>Motivo:</b></label>
+                          <label for="motivo"><b>Motivo:</b></label>
                           <textarea type="text" class="form-control" id="motivo" maxlength="500" name="motivo" placeholder="Informe o Motivo da Solicitação" required></textarea>
                           <div class="invalid-feedback">
                             Este campo é de preenchimento obrigatório.
@@ -102,18 +103,31 @@
                         </div>
 
                         <div class="text-center">
-                          <button name="btnSubmit" id="btnSubmit" type="submit" class="btn-contact scrollto"  onclick="msg()">&nbsp;&nbsp;Pedir Reembolso</button>
+                          <button name="btnSubmit" id="btnSubmit" type="submit" class="btn-contact scrollto"  onclick="msg()">&nbsp;&nbsp; Pedir Reembolso</button>
                         </div>
                       </div>
                       <br><br>
                     </form>
-                          
+                        
                     <!-- Page Content --> 
                     <?php
                       if (isset($_POST["acao"])){
                         echo "<script> alert('Formulário Foi enviado pelo método POST') </script>";
                       }
                     ?>
+
+                    <script type="text/javascript" language="javascript">
+                      function msg(){
+                        if(document.getElementById("nome").value != ""){
+                          if(document.getElementById("contato").value != ""){
+                            if(document.getElementById("motivo").value != ""){
+                              alert('Certificado Solicitado com Sucesso! Em no Máximo 24 horas Enviaremos Através do Contato Cadastrado');
+                            }
+                          }
+                        }
+                      }
+                    </script>
+
                     <script>  
                       (function() {
                         'use strict';
@@ -131,6 +145,7 @@
                         }, false);
                       })();
                     </script>
+
                   </div>
                 </div>
               </div>
@@ -151,24 +166,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
-    <script src="assets/vendor/venobox/venobox.min.js"></script>
-    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-    <script src="assets/vendor/counterup/counterup.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
-
   </body>
 </html>
 

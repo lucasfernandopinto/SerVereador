@@ -18,7 +18,8 @@ CRIAR A TABELA MENSAGEM/CONTATO:
 create table mensagem (
     comunicacao int not null auto_increment primary key,
     nome varchar(80) not null,
-    contato varchar(80) not null,
+    telefone varchar(80) not null,
+    email varchar(50) not null,
     assunto varchar(50) not null,
     mensagem varchar(500) not null
 );

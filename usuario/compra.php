@@ -46,12 +46,12 @@
   <section id="compra" class="compra"> 
     <div class="container">     
       <div class="row justify-content-center my-3">   
-        <h3><center>Deposite o valor do curso na conta abaixo, envie foto do seu comprovante via <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5545998129576.">whats</a> ou <a href="mailto:contato@cursoservereador.com.br"><b>e-mail</b></a> e faça o seu cadastro, logo após, espere o código de acesso, que será enviado em seu e-mail ou via whatsapp.</center></h3>
+        <h3><center>Deposite o valor do curso na conta indicada abaixo, envie foto do comprovante via <a style="color: #FF0000; text-decoration: none;" href="http://api.whatsapp.com/send?1=pt_BR&phone=5545998129576."><b>WhatsApp</a></b> ou <a style="color: #FF0000; text-decoration: none;" href="mailto:contato@cursoservereador.com.br"><b>E-mail</b></a> e faça o seu cadastro. Logo após, aguarde o código de acesso, que será enviado em seu E-mail ou via WhatsApp.</center></h3>
       </div>
 
       <div class="row justify-content-center my-4">  
-        <p><center>O programa Ser Vereador custa apenas R$55,00 e não possui mensalidade. Você só paga uma vez e obtém acesso ao curso a qualquer momento.</center></p>
-        <p><center><b>Você pode pedir o reembolso do seu dinheiro em no máximo uma semana.</b></center></p>
+        <p><center>O programa Ser Vereador custa apenas R$ 55,00 (cinquenta e cinco reais) e não possui mensalidades. Você paga apenas uma vez e obtém acesso imediato ao conteúdo.</center></p>
+        <p><center><b>Caso não fique satisfesito, você poderá solicitar o reembolso do valor pago em até 7 (sete) dias.</b></center></p>
       </div>  
 
           <div class="col-sm-12" id="bordaCompra" >
@@ -110,7 +110,7 @@
                   <div class="icon-box">
                     <div class="icon"></div>
                     <h4><i class="icofont-check-circled"></i>Conteúdo de qualidade</h4>
-                    <p>Garantimos um conteúdo de qualidade e primordial.</p>
+                    <p>Satisfação garantida ou seu Dinheiro de volta!.</p>
                   </div>
                 </div>
 
